@@ -9,7 +9,7 @@ import java.net.URL;
 
 public class Launching_NavigatingToSites {
 
-    @Test
+    @Test //Instead of using main -- We can make the file to testNG
     public void LaunchingAndNavigation() throws MalformedURLException
     {
         ChromeOptions c = new ChromeOptions();

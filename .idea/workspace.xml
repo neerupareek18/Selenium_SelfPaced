@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Launching Trinity Portal">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Launching_NavigatingToSites.java" afterDir="false" />
+    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Locators">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Launching_NavigatingToSites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Launching_NavigatingToSites.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Locators.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,14 +42,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.LaunchingSite.LaunchingPortalNavigateToCustomerSite.executor": "Run",
+    "TestNG.Locators.LoginValidCredentials.executor": "Run",
+    "TestNG.Locators.executor": "Run",
+    "TestNG.Login.LoginNoUsernameAndPassword.executor": "Run",
+    "TestNG.Login.LoginValidCredentials (1).executor": "Run",
+    "TestNG.Login.LoginValidCredentials.executor": "Run",
     "TestNG.SampleTesting.sampleTestCase.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Launching_NavigatingToSites.LaunchingPortalNavigateToCustomerSite">
+  <component name="RunManager" selected="TestNG.Login.LoginValidCredentials">
     <configuration name="Launching_NavigatingToSites.LaunchingPortalNavigateToCustomerSite" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPrograms" />
+      <module name="SeleniumBasics_SelfPaced" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Launching_NavigatingToSites" />
       <option name="METHOD_NAME" value="LaunchingPortalNavigateToCustomerSite" />
@@ -59,11 +65,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleTesting.sampleTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPrograms" />
+    <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SampleTesting" />
-      <option name="METHOD_NAME" value="sampleTestCase" />
+      <option name="MAIN_CLASS_NAME" value="Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login.LoginNoUsernameAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Login" />
+      <option name="METHOD_NAME" value="LoginNoUsernameAndPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login.LoginValidCredentials (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Login" />
+      <option name="METHOD_NAME" value="LoginValidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login.LoginValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Login" />
+      <option name="METHOD_NAME" value="LoginValidCredentials" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -73,8 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Login.LoginValidCredentials" />
+        <item itemvalue="TestNG.Login.LoginNoUsernameAndPassword" />
+        <item itemvalue="TestNG.Login.LoginValidCredentials (1)" />
+        <item itemvalue="TestNG.Login" />
         <item itemvalue="TestNG.Launching_NavigatingToSites.LaunchingPortalNavigateToCustomerSite" />
-        <item itemvalue="TestNG.SampleTesting.sampleTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -95,11 +139,20 @@
       <option name="project" value="LOCAL" />
       <updated>1722262766281</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Locators">
+      <option name="closed" value="true" />
+      <created>1722264219610</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722264219610</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Launching Trinity Portal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Launching Trinity Portal" />
+    <MESSAGE value="Locators" />
+    <option name="LAST_COMMIT_MESSAGE" value="Locators" />
   </component>
 </project>
