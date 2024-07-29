@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginPage.java" afterDir="false" />
+    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Launching Trinity Portal">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Launching_NavigatingToSites.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2jvBOgWjhh9qfPQE1pnWyHRFPgi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,12 +40,25 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.LaunchingSite.LaunchingPortalNavigateToCustomerSite.executor": "Run",
     "TestNG.SampleTesting.sampleTestCase.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Launching_NavigatingToSites.LaunchingPortalNavigateToCustomerSite">
+    <configuration name="Launching_NavigatingToSites.LaunchingPortalNavigateToCustomerSite" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPrograms" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Launching_NavigatingToSites" />
+      <option name="METHOD_NAME" value="LaunchingPortalNavigateToCustomerSite" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SampleTesting.sampleTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPrograms" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,6 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Launching_NavigatingToSites.LaunchingPortalNavigateToCustomerSite" />
         <item itemvalue="TestNG.SampleTesting.sampleTestCase" />
       </list>
     </recent_temporary>
@@ -76,6 +87,19 @@
       <option name="presentableId" value="Default" />
       <updated>1722257643373</updated>
     </task>
+    <task id="LOCAL-00001" summary="Launching Trinity Portal">
+      <option name="closed" value="true" />
+      <created>1722262766281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722262766281</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Launching Trinity Portal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Launching Trinity Portal" />
   </component>
 </project>
