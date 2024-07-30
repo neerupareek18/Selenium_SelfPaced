@@ -7,39 +7,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Login {
+public class Login_Positive_Trinity {
     @Test
-    public void LoginNoUsername(){}
-
-    @Test
-    public void LoginNoPassword(){}
-
-    @Test
-    public void LoginNoUsernameAndPassword(){
-        WebDriver driver=new ChromeDriver();
-        driver.get("https://atlas-web-qa.azurewebsites.net/");
-        driver.manage().window().maximize();
-
-        WebElement signInButton = driver.findElement(By.xpath("/html/body/app-root/app-login/section/div/div/div[2]/div/form/button[1]"));
-        WebElement username_error = driver.findElement(By.xpath("/html/body/app-root/app-login/section/div/div/div[2]/div/form/div[1]/small"));
-        WebElement passwrod_error = driver.findElement(By.xpath("/html/body/app-root/app-login/section/div/div/div[2]/div/form/div[2]/small"));
-        signInButton.click();
-
-        Assert.assertEquals(username_error.getText(), "*Email Address/Username is required");
-        Assert.assertEquals(passwrod_error.getText(), "*Password is required");
-
-        driver.quit();
-
-    }
-
-    @Test
-    public void LoginInvalidUsername(){}
-
-    @Test
-    public void LoginInvalidPassword(){}
-
-    @Test
-    public void LoginValidCredentials() throws InterruptedException {
+    public void Login_ValidCredentials() throws InterruptedException {
 
     ChromeOptions c = new ChromeOptions();
     //By Default, the page loader is Normal - wait for all the elements to load
@@ -48,6 +18,7 @@ public class Login {
 
     //To maximize using options
     c.addArguments("--start-maximized");
+
 
    //Create session via API and Session ID is generated
     WebDriver driver=new ChromeDriver();
@@ -62,6 +33,7 @@ public class Login {
     WebElement password = driver.findElement(By.xpath("/html/body/app-root/app-login/section/div/div/div[2]/div/form/div[2]/div/input"));
     WebElement signInButton = driver.findElement(By.cssSelector("[type='submit']"));
 
+        //Correct Username and Password
     email.sendKeys("Naveen1@yopmail.com");
     password.sendKeys("Admin@123");
     signInButton.click();
