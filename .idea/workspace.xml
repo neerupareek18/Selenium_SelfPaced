@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Login and Sign Up Scenarios">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/AfterBeforeTest.java" afterDir="false" />
+    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Ammendments in the files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Launching_NavigatingToSites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Launching_NavigatingToSites.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Login_Negative_Trinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Login_Negative_Trinity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Login_Positive_Trinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Login_Positive_Trinity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SignUp_Negative_Trinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/SignUp_Negative_Trinity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/SignUp_Negative_Trinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/SignUp_Negative_Trinity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +36,9 @@
     &quot;accountId&quot;: &quot;1d21fd9a-b671-42b6-8c4a-6d1c6b3fb2aa&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Zulu/zulu-21/lib/src.zip!/java.base/java/net/URL.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -57,6 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.AfterBeforeTest.executor": "Run",
+    "TestNG.C:/Users/Neeru/IdeaProjects/SeleniumPrograms/testng.xml.executor": "Run",
     "TestNG.Lab001.LoginPageErrorMessages.executor": "Run",
     "TestNG.LaunchingSite.LaunchingPortalNavigateToCustomerSite.executor": "Run",
     "TestNG.Launching_NavigatingToSites.LaunchingAndNavigation.executor": "Run",
@@ -93,10 +93,11 @@
     "TestNG.SignUp_Trinity.SignUp_InvalidEmail.executor": "Run",
     "TestNG.SignUp_Trinity.SignUp_NoMandatoryField.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Login_Positive_Trinity.Login_ValidCredentials">
+  <component name="RunManager" selected="TestNG.C:/Users/Neeru/IdeaProjects/SeleniumPrograms/testng.xml">
     <configuration name="FileIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SeleniumPractice.FileIO" />
       <module name="SeleniumBasics_SelfPaced" />
@@ -110,54 +111,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Launching_NavigatingToSites.LaunchingAndNavigation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Neeru/IdeaProjects/SeleniumPrograms/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Launching_NavigatingToSites" />
-      <option name="METHOD_NAME" value="LaunchingAndNavigation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login_Negative_Trinity.LoginIncorrectUsername (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Login_Negative_Trinity" />
-      <option name="METHOD_NAME" value="LoginIncorrectUsername" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login_Negative_Trinity.LoginIncorrectUsername" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Login_Negative_Trinity" />
-      <option name="METHOD_NAME" value="LoginIncorrectUsername" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -181,6 +138,42 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Login_Positive_Trinity" />
       <option name="METHOD_NAME" value="Login_ValidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUp_Negative_Trinity.SignUpInvalidPassword (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.SignUp_Negative_Trinity" />
+      <option name="METHOD_NAME" value="SignUpInvalidPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUp_Negative_Trinity.SignUpInvalidPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.SignUp_Negative_Trinity" />
+      <option name="METHOD_NAME" value="SignUpInvalidPassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -238,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Neeru/IdeaProjects/SeleniumPrograms/testng.xml" />
+        <item itemvalue="TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (1)" />
+        <item itemvalue="TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword" />
         <item itemvalue="TestNG.Login_Positive_Trinity.Login_ValidCredentials" />
         <item itemvalue="Application.FileIO" />
-        <item itemvalue="TestNG.Launching_NavigatingToSites.LaunchingAndNavigation" />
-        <item itemvalue="TestNG.Login_Negative_Trinity.LoginIncorrectUsername" />
-        <item itemvalue="TestNG.Login_Negative_Trinity.LoginIncorrectUsername (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722330818656</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ammendments in the files">
+      <option name="closed" value="true" />
+      <created>1722356927506</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722356927507</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -303,6 +304,7 @@
     <MESSAGE value="Locators" />
     <MESSAGE value="LoginPage" />
     <MESSAGE value="Login and Sign Up Scenarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login and Sign Up Scenarios" />
+    <MESSAGE value="Ammendments in the files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ammendments in the files" />
   </component>
 </project>

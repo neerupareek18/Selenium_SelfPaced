@@ -99,10 +99,21 @@ public class SignUp_Negative_Trinity {
         String input_password = "Admin@123";
         password.sendKeys(input_password);
 
-        Pattern p = Pattern.compile("^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])(?=.{9,})$");
+       // Pattern p = Pattern.compile("^(?=.*[A-Za-z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])(?=.{9,})$");
+        Pattern p = Pattern.compile("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$");
+
         Matcher m = p.matcher(input_password);
         boolean b = m.matches();
 
+//        input_password.matches("%[A-Z]%");
+//        input_password=input_password.replaceAll("[A-Za-z0-9]","");
+//
+//        input_password=input_password.replaceAll("[^A-Za-z0-9]","");
+//
+//        if(input_password.isBlank())
+//        {
+//
+//        }
 
         if(!b) {
             List<WebElement> error = driver.findElements(By.className("text-danger"));
