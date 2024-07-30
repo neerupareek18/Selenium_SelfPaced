@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="LoginPage">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Login_Negative_Trinity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SignUp_Negative_Trinity.java" afterDir="false" />
+    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Login and Sign Up Scenarios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Login_Positive_Trinity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Login_Negative_Trinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Login_Negative_Trinity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SignUp_Negative_Trinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SignUp_Negative_Trinity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "neerupareek18"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/neerupareek18/Selenium_SelfPaced.git",
+    "accountId": "1d21fd9a-b671-42b6-8c4a-6d1c6b3fb2aa"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -54,9 +65,11 @@
     "TestNG.Login_Negative_Trinity.LoginNoPassword.executor": "Run",
     "TestNG.Login_Negative_Trinity.LoginNoUsername.executor": "Run",
     "TestNG.SampleTesting.sampleTestCase.executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUpPasswordNotMatching.executor": "Run",
     "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (1).executor": "Run",
     "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (2).executor": "Run",
     "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (3).executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (4).executor": "Run",
     "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail.executor": "Run",
     "TestNG.SignUp_Trinity.SignUp_InvalidEmail (1).executor": "Run",
     "TestNG.SignUp_Trinity.SignUp_InvalidEmail (2).executor": "Run",
@@ -69,7 +82,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (4)">
+  <component name="RunManager" selected="TestNG.SignUp_Negative_Trinity.SignUpPasswordNotMatching">
     <configuration name="Login_Trinity.LoginValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,11 +95,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUp_Negative_Trinity.SignUp_InvalidEmail (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignUp_Negative_Trinity.SignUpPasswordNotMatching" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SignUp_Negative_Trinity" />
-      <option name="METHOD_NAME" value="SignUp_InvalidEmail" />
+      <option name="METHOD_NAME" value="SignUpPasswordNotMatching" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -228,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SignUp_Negative_Trinity.SignUpPasswordNotMatching" />
         <item itemvalue="TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (4)" />
         <item itemvalue="TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail" />
         <item itemvalue="TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (3)" />
         <item itemvalue="TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (2)" />
-        <item itemvalue="TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -269,13 +282,22 @@
       <option name="project" value="LOCAL" />
       <updated>1722271809138</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Login and Sign Up Scenarios">
+      <option name="closed" value="true" />
+      <created>1722328503318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722328503318</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Launching Trinity Portal" />
     <MESSAGE value="Locators" />
     <MESSAGE value="LoginPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="LoginPage" />
+    <MESSAGE value="Login and Sign Up Scenarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login and Sign Up Scenarios" />
   </component>
 </project>

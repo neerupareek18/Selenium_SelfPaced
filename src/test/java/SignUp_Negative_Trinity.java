@@ -2,10 +2,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.List;
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -56,6 +58,28 @@ public class SignUp_Negative_Trinity {
 
         driver.quit();
 
+    }
+@Test
+    public void SignUpPasswordNotMatching(){
+        ChromeOptions c = new ChromeOptions();
+        c.addArguments("--headless");
+
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://atlas-web-qa.azurewebsites.net/");
+
+        WebElement singUpLink = driver.findElement(By.linkText("Sign Up"));
+        singUpLink.click();
+
+        WebElement password = driver.findElement(By.cssSelector("[formcontrolname='password']"));
+
+        WebElement confirm_password = driver.findElement(By.cssSelector("[formcontrolname='confirmpassword']"));
+
+        password.sendKeys("Admin@123");
+        confirm_password.sendKeys("Admin");
+
+        List <WebElement> error = driver.findElements(By.className("text-danger"));
+        Assert.assertEquals(error.get(0).getText(), "*Password doesn't match");
+        driver.quit();
     }
 
 
