@@ -1,3 +1,5 @@
+package SeleniumPractice;
+
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,8 +16,9 @@ public class Launching_NavigatingToSites {
     {
         ChromeOptions c = new ChromeOptions();
         c.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+        c.addArguments("--headless");
 
-        WebDriver driver=new ChromeDriver();
+        WebDriver driver=new ChromeDriver(c); //We need to find the options reference while initialising the driver
         driver.get("https://atlas-web-qa.azurewebsites.net/");
         //This will not work without giving the protocol http/https
         //In get, we can't go forward and backwards

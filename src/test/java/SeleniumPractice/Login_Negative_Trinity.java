@@ -1,3 +1,5 @@
+package SeleniumPractice;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -71,7 +73,7 @@ public class Login_Negative_Trinity {
     }
 
     @Test
-    public void LoginIncorrectUsername(){
+    public void LoginIncorrectUsername() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.get("https://atlas-web-qa.azurewebsites.net/");
         driver.manage().window().maximize();
@@ -80,15 +82,17 @@ public class Login_Negative_Trinity {
         WebElement username = driver.findElement(By.cssSelector("[formcontrolname='email']"));
         WebElement password = driver.findElement(By.cssSelector("[formcontrolname='password']"));
 
-        username.sendKeys("tia@yopmail.com");
-        password.sendKeys("Admin@123");
+        username.sendKeys("naveen1@yopmail.com");
+        password.sendKeys("Admi123");
         signInButton.click();
 
-//        WebElement errortag = driver.findElement(By.cssSelector("[_ngcontent-ekx-c34='ERROR']"));
-//        WebElement errormessage = driver.findElement(By.cssSelector("[_ngcontent-ekx-c34='User does not exists']"));
-//
-//        Assert.assertEquals(errortag.getText(),"ERROR");
-//        Assert.assertEquals(errormessage.getText(),"User does not exists");
+        Thread.sleep(2000);
+
+       //WebElement errortag = driver.findElement(By.xpath("//p[text()='Incorrect password.']"));
+        WebElement errormessage = driver.findElement(By.xpath("//p[text()='Incorrect password.']"));
+
+        //Assert.assertEquals(errortag.getText(),"ERROR");
+        Assert.assertEquals(errormessage.getText(),"Incorrect password.");
         driver.quit();
     }
 

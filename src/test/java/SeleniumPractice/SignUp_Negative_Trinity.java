@@ -1,3 +1,5 @@
+package SeleniumPractice;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,7 +9,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.List;
-import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -42,7 +43,7 @@ public class SignUp_Negative_Trinity {
         WebElement singUpLink = driver.findElement(By.linkText("Sign Up"));
         singUpLink.click();
 
-        String email = "abc@YOPMAILCOM";
+        String email = "abc98@@YOPMAIL98.com";
         Pattern p = Pattern.compile("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,15}$");
         Matcher m = p.matcher(email);
         boolean b = m.matches();
@@ -80,6 +81,37 @@ public class SignUp_Negative_Trinity {
         List <WebElement> error = driver.findElements(By.className("text-danger"));
         Assert.assertEquals(error.get(0).getText(), "*Password doesn't match");
         driver.quit();
+    }
+
+    @Test
+    public void SignUpInvalidPassword(){
+        ChromeOptions c = new ChromeOptions();
+        c.addArguments("--headless");
+
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://atlas-web-qa.azurewebsites.net/");
+        driver.manage().window().maximize();
+
+        WebElement singUpLink = driver.findElement(By.linkText("Sign Up"));
+        singUpLink.click();
+
+        WebElement password = driver.findElement(By.cssSelector("[formcontrolname='password']"));
+        String input_password = "Admin@123";
+        password.sendKeys(input_password);
+
+        Pattern p = Pattern.compile("^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])(?=.{9,})$");
+        Matcher m = p.matcher(input_password);
+        boolean b = m.matches();
+
+
+        if(!b) {
+            List<WebElement> error = driver.findElements(By.className("text-danger"));
+            System.out.println(error.get(0).getText());
+            Assert.assertEquals(error.get(0).getText(), "*Password must contain more than 8 characters, atleast 1 upper, lower case letter, 1 number and 1 special character");
+        }
+        driver.quit();
+
+
     }
 
 

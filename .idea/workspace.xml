@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Login and Sign Up Scenarios">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/AfterBeforeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Login_Negative_Trinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Login_Negative_Trinity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SignUp_Negative_Trinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SignUp_Negative_Trinity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Launching_NavigatingToSites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Launching_NavigatingToSites.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Login_Negative_Trinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Login_Negative_Trinity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Login_Positive_Trinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Login_Positive_Trinity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SignUp_Negative_Trinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/SignUp_Negative_Trinity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "neerupareek18"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;neerupareek18&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/neerupareek18/Selenium_SelfPaced.git",
-    "accountId": "1d21fd9a-b671-42b6-8c4a-6d1c6b3fb2aa"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/neerupareek18/Selenium_SelfPaced.git&quot;,
+    &quot;accountId&quot;: &quot;1d21fd9a-b671-42b6-8c4a-6d1c6b3fb2aa&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -49,10 +52,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.FileIO.executor": "Run",
+    "Application.PasswordValidator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AfterBeforeTest.executor": "Run",
     "TestNG.Lab001.LoginPageErrorMessages.executor": "Run",
     "TestNG.LaunchingSite.LaunchingPortalNavigateToCustomerSite.executor": "Run",
+    "TestNG.Launching_NavigatingToSites.LaunchingAndNavigation.executor": "Run",
     "TestNG.Locators.LoginValidCredentials.executor": "Run",
     "TestNG.Locators.executor": "Run",
     "TestNG.Login.LoginNoUsernameAndPassword.executor": "Run",
@@ -64,7 +71,14 @@
     "TestNG.Login_Negative_Trinity.LoginIncorrectUsername.executor": "Run",
     "TestNG.Login_Negative_Trinity.LoginNoPassword.executor": "Run",
     "TestNG.Login_Negative_Trinity.LoginNoUsername.executor": "Run",
+    "TestNG.Login_Positive_Trinity.Login_ValidCredentials (1).executor": "Run",
+    "TestNG.Login_Positive_Trinity.Login_ValidCredentials (2).executor": "Run",
+    "TestNG.Login_Positive_Trinity.Login_ValidCredentials.executor": "Run",
     "TestNG.SampleTesting.sampleTestCase.executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (1).executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (2).executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (3).executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword.executor": "Run",
     "TestNG.SignUp_Negative_Trinity.SignUpPasswordNotMatching.executor": "Run",
     "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (1).executor": "Run",
     "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (2).executor": "Run",
@@ -82,12 +96,31 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SignUp_Negative_Trinity.SignUpPasswordNotMatching">
-    <configuration name="Login_Trinity.LoginValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Login_Positive_Trinity.Login_ValidCredentials">
+    <configuration name="FileIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.FileIO" />
       <module name="SeleniumBasics_SelfPaced" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Login_Trinity" />
-      <option name="METHOD_NAME" value="LoginValidCredentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Launching_NavigatingToSites.LaunchingAndNavigation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Launching_NavigatingToSites" />
+      <option name="METHOD_NAME" value="LaunchingAndNavigation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -95,11 +128,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUp_Negative_Trinity.SignUpPasswordNotMatching" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login_Negative_Trinity.LoginIncorrectUsername (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SignUp_Negative_Trinity" />
-      <option name="METHOD_NAME" value="SignUpPasswordNotMatching" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Login_Negative_Trinity" />
+      <option name="METHOD_NAME" value="LoginIncorrectUsername" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,11 +146,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUp_Negative_Trinity.SignUp_InvalidEmail (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login_Negative_Trinity.LoginIncorrectUsername" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SignUp_Negative_Trinity" />
-      <option name="METHOD_NAME" value="SignUp_InvalidEmail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Login_Negative_Trinity" />
+      <option name="METHOD_NAME" value="LoginIncorrectUsername" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,11 +164,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUp_Negative_Trinity.SignUp_InvalidEmail (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login_Positive_Trinity.Login_ValidCredentials (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SignUp_Negative_Trinity" />
-      <option name="METHOD_NAME" value="SignUp_InvalidEmail" />
+      <option name="MAIN_CLASS_NAME" value="Login_Positive_Trinity" />
+      <option name="METHOD_NAME" value="Login_ValidCredentials" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,7 +176,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUp_Negative_Trinity.SignUp_InvalidEmail (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login_Positive_Trinity.Login_ValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Login_Positive_Trinity" />
+      <option name="METHOD_NAME" value="Login_ValidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUp_Negative_Trinity.SignUp_InvalidEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SignUp_Negative_Trinity" />
@@ -171,66 +228,6 @@
       <module name="SeleniumBasics_SelfPaced" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SignUp_Negative_Trinity" />
-      <option name="METHOD_NAME" value="SignUp_InvalidEmail" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignUp_Negative_Trinity.SignUp_InvalidEmail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SignUp_Negative_Trinity" />
-      <option name="METHOD_NAME" value="SignUp_InvalidEmail" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignUp_Negative_Trinity.SignUp_InvalidEmail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SignUp_Negative_Trinity" />
-      <option name="METHOD_NAME" value="SignUp_InvalidEmail" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignUp_Trinity.SignUp_InvalidEmail (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SignUp_Trinity" />
-      <option name="METHOD_NAME" value="SignUp_InvalidEmail" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignUp_Trinity.SignUp_InvalidEmail (4)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SignUp_Trinity" />
-      <option name="METHOD_NAME" value="SignUp_InvalidEmail" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignUp_Trinity.SignUp_InvalidEmail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SignUp_Trinity" />
       <option name="METHOD_NAME" value="SignUp_InvalidEmail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -241,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SignUp_Negative_Trinity.SignUpPasswordNotMatching" />
-        <item itemvalue="TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (4)" />
-        <item itemvalue="TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail" />
-        <item itemvalue="TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (3)" />
-        <item itemvalue="TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (2)" />
+        <item itemvalue="TestNG.Login_Positive_Trinity.Login_ValidCredentials" />
+        <item itemvalue="Application.FileIO" />
+        <item itemvalue="TestNG.Launching_NavigatingToSites.LaunchingAndNavigation" />
+        <item itemvalue="TestNG.Login_Negative_Trinity.LoginIncorrectUsername" />
+        <item itemvalue="TestNG.Login_Negative_Trinity.LoginIncorrectUsername (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722328503318</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Login and Sign Up Scenarios">
+      <option name="closed" value="true" />
+      <created>1722330818656</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722330818656</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
