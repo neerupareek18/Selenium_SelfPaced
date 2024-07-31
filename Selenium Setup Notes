@@ -1,0 +1,33 @@
+1. Create the Maven Project
+2. pom.xml will automatically be there, add the dependencies for Selenium, Webdrivers and TestNG
+3. MVN Repository (<!-- https://mvnrepository.com/artifact/org.testng/testng -->)--
+ Search for the window version and paste the code:
+<dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.23.0</version>
+        </dependency>
+
+4. Webdrivers -- search for selenium-chrome-driver,
+<dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>4.23.0</version>
+        </dependency>
+This will be displayed automatically
+
+5. TestNG:
+ <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+6. To add TestNG.xml --
+       - Add the plugin -- Create TestNG xml
+       - Select the classes and right click -- create testNG xml
+       - Go to Settings - Keypad -- Select Eclipse
+       - cntrl+shift+f --- Eclipse short cut for creating the xml
+       - change the settings back to windows
