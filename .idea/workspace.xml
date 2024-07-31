@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Ammendments in the files">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_ForgotPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SignInPageElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/SignUp_Negative_Trinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/SignUp_Negative_Trinity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Login_Negative_Trinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SignInPage_Negative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Login_Positive_Trinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SignInPage_Positive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/SignUp_Negative_Trinity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SignUpPage_Negative.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,58 +52,86 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.FileIO.executor": "Run",
-    "Application.PasswordValidator.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.AfterBeforeTest.executor": "Run",
-    "TestNG.C:/Users/Neeru/IdeaProjects/SeleniumPrograms/testng.xml.executor": "Run",
-    "TestNG.Lab001.LoginPageErrorMessages.executor": "Run",
-    "TestNG.LaunchingSite.LaunchingPortalNavigateToCustomerSite.executor": "Run",
-    "TestNG.Launching_NavigatingToSites.LaunchingAndNavigation.executor": "Run",
-    "TestNG.Locators.LoginValidCredentials.executor": "Run",
-    "TestNG.Locators.executor": "Run",
-    "TestNG.Login.LoginNoUsernameAndPassword.executor": "Run",
-    "TestNG.Login.LoginValidCredentials (1).executor": "Run",
-    "TestNG.Login.LoginValidCredentials.executor": "Run",
-    "TestNG.Login.Login_Negative_Positive.executor": "Run",
-    "TestNG.Login.Login_NoUsername.executor": "Run",
-    "TestNG.Login_Negative_Trinity.LoginIncorrectUsername (1).executor": "Run",
-    "TestNG.Login_Negative_Trinity.LoginIncorrectUsername.executor": "Run",
-    "TestNG.Login_Negative_Trinity.LoginNoPassword.executor": "Run",
-    "TestNG.Login_Negative_Trinity.LoginNoUsername.executor": "Run",
-    "TestNG.Login_Positive_Trinity.Login_ValidCredentials (1).executor": "Run",
-    "TestNG.Login_Positive_Trinity.Login_ValidCredentials (2).executor": "Run",
-    "TestNG.Login_Positive_Trinity.Login_ValidCredentials.executor": "Run",
-    "TestNG.SampleTesting.sampleTestCase.executor": "Run",
-    "TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (1).executor": "Run",
-    "TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (2).executor": "Run",
-    "TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (3).executor": "Run",
-    "TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword.executor": "Run",
-    "TestNG.SignUp_Negative_Trinity.SignUpPasswordNotMatching.executor": "Run",
-    "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (1).executor": "Run",
-    "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (2).executor": "Run",
-    "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (3).executor": "Run",
-    "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (4).executor": "Run",
-    "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail.executor": "Run",
-    "TestNG.SignUp_Trinity.SignUp_InvalidEmail (1).executor": "Run",
-    "TestNG.SignUp_Trinity.SignUp_InvalidEmail (2).executor": "Run",
-    "TestNG.SignUp_Trinity.SignUp_InvalidEmail (3).executor": "Run",
-    "TestNG.SignUp_Trinity.SignUp_InvalidEmail (4).executor": "Run",
-    "TestNG.SignUp_Trinity.SignUp_InvalidEmail (5).executor": "Run",
-    "TestNG.SignUp_Trinity.SignUp_InvalidEmail.executor": "Run",
-    "TestNG.SignUp_Trinity.SignUp_NoMandatoryField.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.FileIO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PasswordValidator.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.AfterBeforeTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Neeru/IdeaProjects/SeleniumPrograms/testng.xml.executor&quot;: &quot;Coverage&quot;,
+    &quot;TestNG.Lab001.LoginPageErrorMessages.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LaunchingSite.LaunchingPortalNavigateToCustomerSite.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Launching_NavigatingToSites.LaunchingAndNavigation.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Locators.LoginValidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Locators.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login.LoginNoUsernameAndPassword.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login.LoginValidCredentials (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login.LoginValidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login.Login_Negative_Positive.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login.Login_NoUsername.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login_Negative_Trinity.LoginIncorrectUsername (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login_Negative_Trinity.LoginIncorrectUsername.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login_Negative_Trinity.LoginNoPassword.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login_Negative_Trinity.LoginNoUsername.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login_Positive_Trinity.Login_ValidCredentials (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login_Positive_Trinity.Login_ValidCredentials (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login_Positive_Trinity.Login_ValidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NavigationAndOuterPagesElements.ForgotPassword (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NavigationAndOuterPagesElements.ForgotPassword (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NavigationAndOuterPagesElements.ForgotPassword (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NavigationAndOuterPagesElements.ForgotPassword (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NavigationAndOuterPagesElements.ForgotPassword (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NavigationAndOuterPagesElements.ForgotPassword.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SampleTesting.sampleTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInPageElements.ElementsOnSignInPage (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInPageElements.ElementsOnSignInPage (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInPageElements.ElementsOnSignInPage (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInPageElements.ElementsOnSignInPage (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInPageElements.ElementsOnSignInPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Negative_Trinity.SignUpPasswordNotMatching.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Trinity.SignUp_InvalidEmail (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Trinity.SignUp_InvalidEmail (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Trinity.SignUp_InvalidEmail (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Trinity.SignUp_InvalidEmail (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Trinity.SignUp_InvalidEmail (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Trinity.SignUp_InvalidEmail.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignUp_Trinity.SignUp_NoMandatoryField.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Trinity_ForgotPasswordPage (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Trinity_ForgotPasswordPage.ExistingEmailAddress.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Trinity_ForgotPasswordPage.InvalidEmailAddress.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Trinity_ForgotPasswordPage.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.C:/Users/Neeru/IdeaProjects/SeleniumPrograms/testng.xml">
-    <configuration name="FileIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.FileIO" />
+    <configuration name="C:/Users/Neeru/IdeaProjects/SeleniumPrograms/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForgotPasswordPage.ForgotPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <extension name="coverage">
         <pattern>
@@ -107,14 +139,64 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.ForgotPasswordPage" />
+      <option name="METHOD_NAME" value="ForgotPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Neeru/IdeaProjects/SeleniumPrograms/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ForgotPasswordPage.ForgotPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.ForgotPasswordPage" />
+      <option name="METHOD_NAME" value="ForgotPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForgotPasswordPage.ForgotPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.ForgotPasswordPage" />
+      <option name="METHOD_NAME" value="ForgotPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForgotPasswordPage.ForgotPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.ForgotPasswordPage" />
+      <option name="METHOD_NAME" value="ForgotPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -133,19 +215,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login_Positive_Trinity.Login_ValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Login_Positive_Trinity" />
-      <option name="METHOD_NAME" value="Login_ValidCredentials" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignUp_Negative_Trinity.SignUpInvalidPassword (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigationAndOuterPagesElements.ForgotPassword (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <extension name="coverage">
         <pattern>
@@ -154,8 +224,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumPractice" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.SignUp_Negative_Trinity" />
-      <option name="METHOD_NAME" value="SignUpInvalidPassword" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.NavigationAndOuterPagesElements" />
+      <option name="METHOD_NAME" value="ForgotPassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -163,7 +233,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUp_Negative_Trinity.SignUpInvalidPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigationAndOuterPagesElements.ForgotPassword (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <extension name="coverage">
         <pattern>
@@ -172,8 +242,80 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumPractice" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.SignUp_Negative_Trinity" />
-      <option name="METHOD_NAME" value="SignUpInvalidPassword" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.NavigationAndOuterPagesElements" />
+      <option name="METHOD_NAME" value="ForgotPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationAndOuterPagesElements.ForgotPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.NavigationAndOuterPagesElements" />
+      <option name="METHOD_NAME" value="ForgotPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInPageElements.ElementsOnSignInPage (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.SignInPageElements" />
+      <option name="METHOD_NAME" value="ElementsOnSignInPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInPageElements.ElementsOnSignInPage (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.SignInPageElements" />
+      <option name="METHOD_NAME" value="ElementsOnSignInPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInPageElements.ElementsOnSignInPage (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.SignInPageElements" />
+      <option name="METHOD_NAME" value="ElementsOnSignInPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -222,6 +364,77 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SignUp_Negative_Trinity" />
       <option name="METHOD_NAME" value="SignUp_InvalidEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Trinity_ForgotPasswordPage (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_ForgotPasswordPage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Trinity_ForgotPasswordPage.ExistingEmailAddress" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_ForgotPasswordPage" />
+      <option name="METHOD_NAME" value="ExistingEmailAddress" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Trinity_ForgotPasswordPage.NonExistingEmailAddress (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_ForgotPasswordPage" />
+      <option name="METHOD_NAME" value="NonExistingEmailAddress" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Trinity_ForgotPasswordPage.NonExistingEmailAddress" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_ForgotPasswordPage" />
+      <option name="METHOD_NAME" value="NonExistingEmailAddress" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -232,10 +445,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Neeru/IdeaProjects/SeleniumPrograms/testng.xml" />
-        <item itemvalue="TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (1)" />
-        <item itemvalue="TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword" />
-        <item itemvalue="TestNG.Login_Positive_Trinity.Login_ValidCredentials" />
-        <item itemvalue="Application.FileIO" />
+        <item itemvalue="TestNG.Trinity_ForgotPasswordPage.ExistingEmailAddress" />
+        <item itemvalue="TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress (3)" />
+        <item itemvalue="TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress" />
+        <item itemvalue="TestNG.Trinity_ForgotPasswordPage (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722356927507</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ammendments in the files">
+      <option name="closed" value="true" />
+      <created>1722358101747</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722358101747</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -306,5 +527,8 @@
     <MESSAGE value="Login and Sign Up Scenarios" />
     <MESSAGE value="Ammendments in the files" />
     <option name="LAST_COMMIT_MESSAGE" value="Ammendments in the files" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SeleniumPrograms$C__Users_Neeru_IdeaProjects_SeleniumPrograms_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1722417126236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

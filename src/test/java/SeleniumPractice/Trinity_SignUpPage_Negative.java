@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class SignUp_Negative_Trinity {
+public class Trinity_SignUpPage_Negative {
     @Test
     public void SignUp_NoMandatoryField(){
         WebDriver driver = new ChromeDriver();
@@ -96,24 +96,14 @@ public class SignUp_Negative_Trinity {
         singUpLink.click();
 
         WebElement password = driver.findElement(By.cssSelector("[formcontrolname='password']"));
-        String input_password = "Admin@123";
+        String input_password = "Admin@@#^";
         password.sendKeys(input_password);
 
        // Pattern p = Pattern.compile("^(?=.*[A-Za-z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])(?=.{9,})$");
-        Pattern p = Pattern.compile("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$");
+        Pattern p = Pattern.compile("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{9,}$");
 
         Matcher m = p.matcher(input_password);
         boolean b = m.matches();
-
-//        input_password.matches("%[A-Z]%");
-//        input_password=input_password.replaceAll("[A-Za-z0-9]","");
-//
-//        input_password=input_password.replaceAll("[^A-Za-z0-9]","");
-//
-//        if(input_password.isBlank())
-//        {
-//
-//        }
 
         if(!b) {
             List<WebElement> error = driver.findElements(By.className("text-danger"));

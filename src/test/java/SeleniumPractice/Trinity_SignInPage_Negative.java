@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class Login_Negative_Trinity {
+public class Trinity_SignInPage_Negative {
     //id->name->classname->tag->css Selector->xpath
 
     @Test

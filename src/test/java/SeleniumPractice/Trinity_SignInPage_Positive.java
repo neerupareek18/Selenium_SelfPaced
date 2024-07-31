@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Login_Positive_Trinity {
+public class Trinity_SignInPage_Positive {
     @Test
     public void Login_ValidCredentials() throws InterruptedException {
 
