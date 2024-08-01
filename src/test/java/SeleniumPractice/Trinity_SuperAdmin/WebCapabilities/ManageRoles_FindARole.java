@@ -70,32 +70,28 @@ public class ManageRoles_FindARole {
 //        w4.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='search']")));
 //
 //        driver.findElement(By.xpath("//input[@type='search']")).sendKeys(role_name);
-        List <WebElement> header = driver.findElements(By.xpath("//table[@id='DataTables_Table_0']/thead"));
-        int i=0;
-        boolean exists = false;
-        for(WebElement header1:header){
+        List <WebElement> header = driver.findElements(By.xpath("//table[@id='DataTables_Table_0']/thead/tr"));
+        int columns = driver.findElements(By.xpath("//table[@id='DataTables_Table_0']/thead/tr[1]/th")).size();
+        int index=0;
+        for(int i=1;i<=columns;i++){
+            index++;
+            System.out.println(driver.findElement(By.xpath("//table[@id='DataTables_Table_0']/thead/tr[1]/th["+i+"]")).getText());
+            if(driver.findElement(By.xpath("//table[@id='DataTables_Table_0']/thead/tr[1]/th["+i+"]")).getText().equals("Name")){
+                break;
+            }
+        }
+
+
+        for(WebElement header1:header) {
             System.out.println(header1.getText());
-            i++;
-            if(header1.getText().equals("Description")){
-                exists=true;
-              break;
-            }
         }
+
         int rows = driver.findElements(By.xpath("//table[starts-with(@id,'DataTables_Table')]/descendant::tbody/tr")).size();
-        if(exists){
-            for(int i1=1;i<=rows;i++){
-                System.out.println(driver.findElement(By.xpath("//table[starts-with(@id,'DataTables_Table')]/tbody/tr["+i1+"]/td["+i+"]")).getText());
-            }
+        int columns1 = driver.findElements(By.xpath("//table[starts-with(@id,'DataTables_Table')]/descendant::tbody/tr[1]/td")).size();
+//
+        for(int i=1;i<=rows;i++){
+            System.out.println(driver.findElement(By.xpath("//table[starts-with(@id,'DataTables_Table')]/descendant::tbody/tr["+i+"]/td["+index+"]")).getText());
         }
-//        int rows = driver.findElements(By.xpath("//table[starts-with(@id,'DataTables_Table')]/descendant::tbody/tr")).size();
-//        int columns = driver.findElements(By.xpath("//table[starts-with(@id,'DataTables_Table')]/descendant::tbody/tr[1]/td")).size();
-//
-//        for(int i=1;i<=rows;i++){
-//            for(int j=1;j<=columns;j++){
-//                System.out.println(driver.findElement(By.xpath("//table[@id='DataTables_Table_0']/tbody/tr["+i+"]/td["+j+"]")).getText());
-//
-//            }
-//        }
 
 //        if(!(driver.findElement(By.xpath("//*[@id='DataTables_Table_0_wrapper']/table/tbody/tr[1]/td")).getText() == "No matching records found")){
 //            record_exist = true;
