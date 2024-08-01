@@ -73,6 +73,13 @@ Xpath Axes ---
         //Correct Username and Password
     email.sendKeys("Naveen1@yopmail.com");
     password.sendKeys("Admin@123");
+    System.out.println(password.getAttribute("type"));
+    Assert.assertEquals(password.getAttribute("type"),"password");
+
+    driver.findElement(By.xpath("//div/i[@class='fa fa-eye']")).click();
+    System.out.println(password.getAttribute("type"));
+        Assert.assertEquals(password.getAttribute("type"),"text");
+
     signInButton.click();
 
     Thread.sleep(3000);

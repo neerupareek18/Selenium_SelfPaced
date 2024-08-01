@@ -36,8 +36,8 @@ public class Trinity_SignInPageElements {
         Assert.assertTrue(h3.isDisplayed());
 
         //Logo Image locator
-        //WebElement logo = driver.findElement(By.cssSelector("img[src='assets/images/TrinityLogo.png']"));
-        //Assert.assertTrue(logo.isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//div/a/img[@src='assets/images/TrinityLogo.png']")).isDisplayed());
+        //Text of the image
         //Assert.assertEquals(logo.getText(), "TRINITY");
 
         WebElement emailtitle = driver.findElement(By.xpath("//label[text()=\"Email Address/Username\"]"));
@@ -45,8 +45,6 @@ public class Trinity_SignInPageElements {
 
         WebElement emailplaceholder = driver.findElement(By.xpath("//input[@placeholder=\"Enter Email Address/Username\"]"));
         WebElement passwordplaceholder = driver.findElement(By.xpath("//input[@placeholder=\"Enter Password\"]"));
-
-        //Locator for eye
 
         WebElement signInButton = driver.findElement(By.cssSelector("[type='submit']"));
 
@@ -62,6 +60,8 @@ public class Trinity_SignInPageElements {
 
         Assert.assertTrue(forgotpassword.isDisplayed());
         Assert.assertTrue(forgotpassword.isEnabled());
+
+        Assert.assertEquals(driver.findElement(By.xpath("//div[@class='signup-password text-center']")).getText(),"Don't have an account? Sign Up");
 
         WebElement SignUplink = driver.findElement(By.linkText("Sign Up"));
 

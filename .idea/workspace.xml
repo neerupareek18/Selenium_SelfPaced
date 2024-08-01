@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Selenium Setup Notes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles.java" afterDir="false" />
+    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Trinity Manage Roles - Add New Role">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindARole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_ForgotPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SignInPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SignInPageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SignInPage_Positive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SignInPage_Positive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +88,14 @@
     "TestNG.ManageRoles.AddNewRoleForEmployee (3).executor": "Run",
     "TestNG.ManageRoles.AddNewRoleForEmployee.executor": "Run",
     "TestNG.ManageRoles.executor": "Run",
+    "TestNG.ManageRoles_AddNewRole.AddNewRoleForEmployee.executor": "Run",
+    "TestNG.ManageRoles_AddNewRole.executor": "Run",
+    "TestNG.ManageRoles_FindARole.TraverseRoleTable (1).executor": "Run",
+    "TestNG.ManageRoles_FindARole.TraverseRoleTable (2).executor": "Run",
+    "TestNG.ManageRoles_FindARole.TraverseRoleTable (3).executor": "Run",
+    "TestNG.ManageRoles_FindARole.TraverseRoleTable (4).executor": "Run",
+    "TestNG.ManageRoles_FindARole.TraverseRoleTable.executor": "Debug",
+    "TestNG.ManageRoles_FindARole.executor": "Run",
     "TestNG.NavigationAndOuterPagesElements.ForgotPassword (1).executor": "Run",
     "TestNG.NavigationAndOuterPagesElements.ForgotPassword (2).executor": "Run",
     "TestNG.NavigationAndOuterPagesElements.ForgotPassword (3).executor": "Run",
@@ -124,12 +134,14 @@
     "TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress (3).executor": "Run",
     "TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress.executor": "Run",
     "TestNG.Trinity_ForgotPasswordPage.executor": "Run",
+    "TestNG.Trinity_SignInPageElements.ElementsOnSignInPage.executor": "Run",
+    "TestNG.Trinity_SignInPage_Positive.Login_ValidCredentials.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.ManageRoles.AddNewRoleForEmployee">
+  <component name="RunManager" selected="TestNG.ManageRoles_FindARole.TraverseRoleTable">
     <configuration name="ForgotPasswordPage.ForgotPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <extension name="coverage">
@@ -184,7 +196,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManageRoles (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ManageRoles_AddNewRole" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <extension name="coverage">
         <pattern>
@@ -193,61 +205,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles_AddNewRole" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManageRoles" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManageRoles.AddNewRoleForEmployee (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles" />
-      <option name="METHOD_NAME" value="AddNewRoleForEmployee" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManageRoles.AddNewRoleForEmployee (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles" />
-      <option name="METHOD_NAME" value="AddNewRoleForEmployee" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -265,6 +224,113 @@
       <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
       <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles" />
       <option name="METHOD_NAME" value="AddNewRoleForEmployee" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageRoles_AddNewRole.AddNewRoleForEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles_AddNewRole" />
+      <option name="METHOD_NAME" value="AddNewRoleForEmployee" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageRoles_AddNewRole.AddNewRoleForEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles_AddNewRole" />
+      <option name="METHOD_NAME" value="AddNewRoleForEmployee" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageRoles_AddNewRole.AddNewRoleForEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles_AddNewRole" />
+      <option name="METHOD_NAME" value="AddNewRoleForEmployee" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageRoles_FindARole" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles_FindARole" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageRoles_FindARole.TraverseRoleTable (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles_FindARole" />
+      <option name="METHOD_NAME" value="TraverseRoleTable" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageRoles_FindARole.TraverseRoleTable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles_FindARole" />
+      <option name="METHOD_NAME" value="TraverseRoleTable" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -310,11 +376,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ManageRoles.AddNewRoleForEmployee" />
-        <item itemvalue="TestNG.ManageRoles.AddNewRoleForEmployee (1)" />
-        <item itemvalue="TestNG.ManageRoles.AddNewRoleForEmployee (3)" />
-        <item itemvalue="TestNG.ManageRoles (2)" />
-        <item itemvalue="TestNG.ManageRoles" />
+        <item itemvalue="TestNG.ManageRoles_FindARole.TraverseRoleTable" />
+        <item itemvalue="TestNG.ManageRoles_FindARole" />
+        <item itemvalue="TestNG.ManageRoles_AddNewRole.AddNewRoleForEmployee" />
+        <item itemvalue="TestNG.ManageRoles_FindARole.TraverseRoleTable (4)" />
+        <item itemvalue="TestNG.ManageRoles_AddNewRole" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +465,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722418769290</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Trinity Manage Roles - Add New Role">
+      <option name="closed" value="true" />
+      <created>1722503675434</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722503675434</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -410,7 +484,39 @@
     <MESSAGE value="Ammendments in the files" />
     <MESSAGE value="Trinity Sign in Page Elements and Forgot Password Scenarios" />
     <MESSAGE value="Selenium Setup Notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium Setup Notes" />
+    <MESSAGE value="Trinity Manage Roles - Add New Role" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trinity Manage Roles - Add New Role" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeleniumPrograms$C__Users_Neeru_IdeaProjects_SeleniumPrograms_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1722417126236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

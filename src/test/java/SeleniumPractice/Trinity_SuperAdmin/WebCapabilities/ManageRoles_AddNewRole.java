@@ -5,7 +5,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -14,12 +13,12 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class ManageRoles {
+public class ManageRoles_AddNewRole {
     WebDriver driver;
     boolean record_exist=false;
     String role_name;
     @BeforeTest
-    public void NavigateToManageRoles(){
+    public void NavigateToManageRoles() throws InterruptedException {
         ChromeOptions c = new ChromeOptions();
         c.addArguments("--start-maximized");
         //c.addArguments("--headless");
@@ -48,6 +47,7 @@ public class ManageRoles {
         w.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"navbarSupportedContent\"]/ul[1]")));
 WebElement wc = driver.findElement(By.xpath("//a[text()='Web Capabilities ']"));
 WebElement um = driver.findElement(By.xpath("//span[text()='User Management']"));
+Thread.sleep(1000);
 WebElement mr = driver.findElement(By.xpath("//span[text()='Manage Roles']"));
 //
 //        w.until(ExpectedConditions.elementSelectionStateToBe(wc,true));
@@ -56,6 +56,8 @@ WebElement mr = driver.findElement(By.xpath("//span[text()='Manage Roles']"));
 
         driver.findElement(By.xpath("//a[text()='Web Capabilities ']")).click();
         driver.findElement(By.xpath("//span[text()='User Management']")).click();
+
+        Thread.sleep(1000);
         driver.findElement(By.xpath("//span[text()='Manage Roles']")).click();
 
         Assert.assertEquals(driver.getCurrentUrl(), "https://atlas-web-qa.azurewebsites.net/role");
@@ -63,7 +65,7 @@ WebElement mr = driver.findElement(By.xpath("//span[text()='Manage Roles']"));
 
     @Test
     public void AddNewRoleForEmployee() throws InterruptedException {
-        role_name = "TestRole11";
+        role_name = "TestRole123456";
         WebDriverWait w4 = new WebDriverWait(driver, Duration.ofSeconds(5));
         w4.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='search']")));
 
@@ -138,7 +140,8 @@ s.selectByValue("Employee");
             Thread.sleep(10);
             Assert.assertTrue(driver.findElement(By.xpath("//p[text()='Success']")).isDisplayed());
         System.out.println("Success is there");
-            //Assert.assertTrue(driver.findElement(By.xpath("//p[text()='Role deleted successfully.']")).isDisplayed());
+
+        //Assert.assertTrue(driver.findElement(By.xpath("//p[text()='Role deleted successfully.']")).getText().equalsIgnoreCase("")==false);
 
         }
 
