@@ -6,11 +6,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -82,7 +88,8 @@ public class Trinity_ForgotPasswordPage {
         WebElement submitButton = driver.findElement(By.xpath("//button[text()=\" Send the Email to Reset the Password \"]"));
         submitButton.click();
 
-        Thread.sleep(2000);
+        //Thread.sleep(2000);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         WebElement errortag = driver.findElement(By.xpath("//p[text()=\"ERROR\"]"));
         WebElement errormessage= driver.findElement(By.xpath("//p[text()=\"User does not exists\"]"));
@@ -93,7 +100,7 @@ public class Trinity_ForgotPasswordPage {
     }
 
     @Test
-    public void ExistingEmailAddress() throws InterruptedException{
+    public void ExistingEmailAddress_ResetPassword() throws InterruptedException{
         driver.get("https://atlas-web-qa.azurewebsites.net/");
         WebElement forgotpassword = driver.findElement(By.xpath("//a[text()=\"Forgot Password?\"]"));
         forgotpassword.click();
@@ -104,10 +111,15 @@ public class Trinity_ForgotPasswordPage {
         WebElement submitButton = driver.findElement(By.xpath("//button[text()=\" Send the Email to Reset the Password \"]"));
         submitButton.click();
 
-        Thread.sleep(5000);
+        //Thread.sleep(5000);
+        WebDriverWait w = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+        w.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//p[text()=\"Success\"]")));
 
         WebElement successtag = driver.findElement(By.xpath("//p[text()=\"Success\"]"));
         WebElement successmessage= driver.findElement(By.xpath("//p[text()=\"Email sent. Please check the inbox to reset the password\"]"));
+
+
 
         Assert.assertEquals(successtag.getText(),"Success");
         Assert.assertEquals(successmessage.getText(),"Email sent. Please check the inbox to reset the password");
@@ -115,6 +127,19 @@ public class Trinity_ForgotPasswordPage {
         WebElement backtologin = driver.findElement(By.linkText("Back to Login"));
         backtologin.click();
         Assert.assertEquals(driver.getCurrentUrl(), "https://atlas-web-qa.azurewebsites.net/login");
+
+        driver.navigate().to("https://yopmail.com/en/");
+        WebElement yopmaillogin = driver.findElement(By.id("login"));
+        WebElement submitarrow = driver.findElement(By.xpath("//*[@id=\"refreshbut\"]/button"));
+
+//        yopmaillogin.sendKeys("naveen1");
+//        submitarrow.click();
+//
+//        List<WebElement> mails = driver.findElements(By.xpath("//span[text()=\"Trinity Trailer Administration Department\"]"));
+//        mails.get(0).click();
+//
+//        WebElement resetpasswordbutton = driver.findElement(By.xpath("//a[text()=\" Reset your Password\"]"));
+//        resetpasswordbutton.click();
 
     }
 
