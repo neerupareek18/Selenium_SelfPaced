@@ -1,0 +1,67 @@
+    Thread.sleep -- means JVM will halt the whole program
+    Ideally, only Webdriver should wait, not JVM -- as WD is able to find the element but can't perform the further tasks
+
+     - Implicit Wait -- Wait for all the elements, not recommended to be used in Scripts
+     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS) -- The execution can complete in less than 10 sec. too,
+     if we are able to find the element
+     Write once, it will be applicable to every elements which is not found till the given seconds
+     It is different from Thread. sleep();
+     It is the global wait to all the elements
+
+     - Explicit Wait -- Wait only for the given element -- to a specific element on some condition
+     WebDriverWait w = new WebDriverWait(driver, Duration.ofSeconds(10));
+     wait.until(ExpectedCondition.textToBePresentInElement(error_msg, "Message Value"))
+
+
+     - Fluent Wait -- Wait for the given time, but check every 1 sec. for the element, it is the part of Explicit Wait
+        Explicit Wait checks continuosuly
+        Fluent Wait will check in intervals
+        Polling Period
+        It is used when resources needs to be saved
+
+        Syntax is very scary
+     */
+
+    //------------------------------------------------------------------------------------------------------
+/*
+Checkboxes:
+
+List <WebElements> allcheckbox= driver.findElements(By.cssSelector("type=checkobx"));
+for(WebElement checkbox : allcheckbox){
+if(!checkbox.isSelected){
+checkbox.click();
+}
+}
+ */
+ //------------------------------------------------------------------------------------------------------
+    /*
+    Priority:
+    Send Keys --> Action Class --> Java Script Executor
+    Actions:
+    Actions a = new Actions(driver);
+    -- For typing input in the textbox
+    a.keyDown(Keys.SHIFT).sendkeys(<WebElement>, "Value").keyUp(Keys.SHIFT).build().perform();
+    -- For right Click
+    a.contextClick(<WebElement>).build().perform();
+
+--If right click opends the windows options, Selenium cannot  handle it. We need to use Robot Class
+
+a.moveToElement(<WebElement>).clcik().sendkeys("New Delhi").build().perform();
+-- Result will be displyed in the unordered list on UI
+
+-- Scrolling down the page
+a.sendkeys(Keys.PAGE_DOWN).build().perform();
+
+WebElement from =
+WebElement to =
+
+a.dragAndDrop(from,to).perofrm();
+or
+a.clickAndHold(from).moveToElement(to).release(to).build().perform();
+     */
+
+     //------------------------------------------------------------------------------------------
+
+     /*
+     File Upload
+     */
