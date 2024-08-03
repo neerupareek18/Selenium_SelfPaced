@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Traverse the Web Table">
-      <change afterPath="$PROJECT_DIR$/Selenium Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/Services/TrailerCatalog_UploadImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindAColumnName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManagerPermission.java" afterDir="false" />
+    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Manage Roles and Trailer Catalog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindARole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindARole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium Notes" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_ForgotPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/Services/TrailerCatalog_UploadImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/Services/TrailerCatalog_UploadImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +141,7 @@
     "TestNG.Trinity_ForgotPasswordPage (1).executor": "Run",
     "TestNG.Trinity_ForgotPasswordPage.ExistingEmailAddress (1).executor": "Run",
     "TestNG.Trinity_ForgotPasswordPage.ExistingEmailAddress.executor": "Run",
+    "TestNG.Trinity_ForgotPasswordPage.ExistingEmailAddress_ResetPassword.executor": "Run",
     "TestNG.Trinity_ForgotPasswordPage.InvalidEmailAddress.executor": "Run",
     "TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress (1).executor": "Run",
     "TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress (2).executor": "Run",
@@ -156,7 +156,7 @@
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TrailerCatalog_UploadImage.NavigateToManagerPermissions (2)">
+  <component name="RunManager" selected="TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress (1)">
     <configuration name="ForgotPasswordPage.ForgotPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <extension name="coverage">
@@ -186,60 +186,6 @@
       <option name="PACKAGE_NAME" value="SeleniumPractice" />
       <option name="MAIN_CLASS_NAME" value="SeleniumPractice.ForgotPasswordPage" />
       <option name="METHOD_NAME" value="ForgotPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForgotPasswordPage.ForgotPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.ForgotPasswordPage" />
-      <option name="METHOD_NAME" value="ForgotPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManageRoles.AddNewRoleForEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles" />
-      <option name="METHOD_NAME" value="AddNewRoleForEmployee" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManageRoles_AddNewRole.AddNewRoleForEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles_AddNewRole" />
-      <option name="METHOD_NAME" value="AddNewRoleForEmployee" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -283,96 +229,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManageRoles_FindAColumnName.TraverseRoleTable" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles_FindAColumnName" />
-      <option name="METHOD_NAME" value="TraverseRoleTable" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManageRoles_FindARole.TraverseRoleTable (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles_FindARole" />
-      <option name="METHOD_NAME" value="TraverseRoleTable" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManageRoles_FindARole.TraverseRoleTable" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles_FindARole" />
-      <option name="METHOD_NAME" value="TraverseRoleTable" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManageRoles_FindARole.findARoleName" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles_FindARole" />
-      <option name="METHOD_NAME" value="findARoleName" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManagerPermission.NavigateToManagerPermissions" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManagerPermission" />
-      <option name="METHOD_NAME" value="NavigateToManagerPermissions" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SignUp_Negative_Trinity.SignUp_InvalidEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <option name="PACKAGE_NAME" value="" />
@@ -390,54 +246,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SignUp_Negative_Trinity" />
       <option name="METHOD_NAME" value="SignUp_InvalidEmail" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignUp_Negative_Trinity.SignUp_InvalidEmail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SignUp_Negative_Trinity" />
-      <option name="METHOD_NAME" value="SignUp_InvalidEmail" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrailerCatalog_UploadImage.NavigateToManagerPermissions (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.Services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.Services" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.Services.TrailerCatalog_UploadImage" />
-      <option name="METHOD_NAME" value="NavigateToManagerPermissions" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrailerCatalog_UploadImage.NavigateToManagerPermissions (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.Services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.Services" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.Services.TrailerCatalog_UploadImage" />
-      <option name="METHOD_NAME" value="NavigateToManagerPermissions" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -463,13 +271,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Trinity_ForgotPasswordPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_ForgotPasswordPage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Trinity_ForgotPasswordPage.ExistingEmailAddress_ResetPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_ForgotPasswordPage" />
+      <option name="METHOD_NAME" value="ExistingEmailAddress_ResetPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Trinity_ForgotPasswordPage.NonExistingEmailAddress (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_ForgotPasswordPage" />
+      <option name="METHOD_NAME" value="NonExistingEmailAddress" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Trinity_ForgotPasswordPage.NonExistingEmailAddress" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_ForgotPasswordPage" />
+      <option name="METHOD_NAME" value="NonExistingEmailAddress" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TrailerCatalog_UploadImage.NavigateToManagerPermissions (2)" />
-        <item itemvalue="TestNG.TrailerCatalog_UploadImage.NavigateToManagerPermissions (1)" />
+        <item itemvalue="TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress (1)" />
+        <item itemvalue="TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress" />
+        <item itemvalue="TestNG.Trinity_ForgotPasswordPage" />
+        <item itemvalue="TestNG.Trinity_ForgotPasswordPage.ExistingEmailAddress_ResetPassword" />
         <item itemvalue="TestNG.TrailerCatalog_UploadImage.NavigateToManagerPermissions" />
-        <item itemvalue="TestNG.ManagerPermission.NavigateToManagerPermissions" />
-        <item itemvalue="TestNG.ManageRoles_FindARole.findARoleName" />
       </list>
     </recent_temporary>
   </component>
@@ -578,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722522277685</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Manage Roles and Trailer Catalog">
+      <option name="closed" value="true" />
+      <created>1722688820736</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722688820738</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -591,7 +478,8 @@
     <MESSAGE value="Selenium Setup Notes" />
     <MESSAGE value="Trinity Manage Roles - Add New Role" />
     <MESSAGE value="Traverse the Web Table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Traverse the Web Table" />
+    <MESSAGE value="Manage Roles and Trailer Catalog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Manage Roles and Trailer Catalog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,9 +1,6 @@
 package SeleniumPractice;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.PageLoadStrategy;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -15,7 +12,9 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -91,8 +90,8 @@ public class Trinity_ForgotPasswordPage {
         //Thread.sleep(2000);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        WebElement errortag = driver.findElement(By.xpath("//p[text()=\"ERROR\"]"));
-        WebElement errormessage= driver.findElement(By.xpath("//p[text()=\"User does not exists\"]"));
+        WebElement errortag = driver.findElement(By.xpath("//div/p[text()='ERROR']"));
+        WebElement errormessage= driver.findElement(By.xpath("//div/p[text()=\"User does not exists\"]"));
 
         Assert.assertEquals(errortag.getText(),"ERROR");
         Assert.assertEquals(errormessage.getText(),"User does not exists");
@@ -129,22 +128,34 @@ public class Trinity_ForgotPasswordPage {
         Assert.assertEquals(driver.getCurrentUrl(), "https://atlas-web-qa.azurewebsites.net/login");
 
         driver.navigate().to("https://yopmail.com/en/");
-        WebElement yopmaillogin = driver.findElement(By.id("login"));
-        WebElement submitarrow = driver.findElement(By.xpath("//*[@id=\"refreshbut\"]/button"));
+        WebElement yopmaillogin = driver.findElement(By.xpath("//div/input[@type='text']"));
+        //WebElement submitarrow = driver.findElement(By.xpath("//*[@id=\"refreshbut\"]/button"));
 
-//        yopmaillogin.sendKeys("naveen1");
-//        submitarrow.click();
-//
-//        List<WebElement> mails = driver.findElements(By.xpath("//span[text()=\"Trinity Trailer Administration Department\"]"));
-//        mails.get(0).click();
-//
-//        WebElement resetpasswordbutton = driver.findElement(By.xpath("//a[text()=\" Reset your Password\"]"));
-//        resetpasswordbutton.click();
+        yopmaillogin.sendKeys("naveen1");
+        yopmaillogin.sendKeys(Keys.RETURN);
 
-    }
+       List<WebElement> mails = driver.findElements(By.xpath("//span[text()=\"Trinity Trailer Administration Department\"]"));
+       //mails.get(1).click();
+
+        driver.switchTo().frame("ifmail");
+        WebElement resetpasswordbutton = driver.findElement(By.xpath("//a[text()=\" Reset your Password\"]"));
+        resetpasswordbutton.click();
+
+        String main_window = driver.getWindowHandle();
+        Set <String> windowhandles = driver.getWindowHandles();
+
+        Iterator <String> i = windowhandles.iterator();
+        while(i.hasNext()){
+            String c = i.next();
+            if(!c.equals(main_window)){
+               driver.switchTo().window(c);
+            }
+        }
+        //Reseting the Password Code
+        }
 
     @AfterTest
     public void closeBrowser(){
         driver.quit();
     }
-}
+    }

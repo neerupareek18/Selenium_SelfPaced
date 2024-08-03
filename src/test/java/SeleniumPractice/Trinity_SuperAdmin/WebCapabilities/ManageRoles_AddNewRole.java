@@ -141,7 +141,7 @@ s.selectByValue("Employee");
             Assert.assertTrue(driver.findElement(By.xpath("//p[text()='Success']")).isDisplayed());
         System.out.println("Success is there");
 
-        //Assert.assertTrue(driver.findElement(By.xpath("//p[text()='Role deleted successfully.']")).getText().equalsIgnoreCase("")==false);
+        Assert.assertTrue(driver.findElement(By.xpath("//p[text()='Role deleted successfully.']")).getText().equalsIgnoreCase("")==false);
 
         }
 

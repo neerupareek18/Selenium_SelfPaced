@@ -65,3 +65,18 @@ a.clickAndHold(from).moveToElement(to).release(to).build().perform();
      /*
      File Upload
      */
+
+     //---------------------------------------------------------------------------------------------
+
+     /*
+     Window Handles:
+     String mainwindow=driver.getWindowHandle
+     Set <String> h = driver.getWindowHandles
+
+     for(String s:h){
+     driver.switchto().window(s);
+     print -- s.getPageSource.contains(" ");
+     }
+     */
+
+     https://awesomeqa.com/practice.html

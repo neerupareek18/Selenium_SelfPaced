@@ -44,7 +44,7 @@ public class TrailerCatalog_UploadImage {
         driver.findElement(By.xpath("//span[@title='Trailer Catalog']")).click();
 
         Thread.sleep(10000);
-        WebElement row1 = driver.findElement(By.xpath("//table[@id='DataTables_Table_4']/tbody/descendant::tr"));
+        WebElement row1 = driver.findElement(By.xpath("//table[@id='DataTables_Table_0']/tbody/descendant::tr"));
         Actions a = new Actions(driver);
         a.doubleClick(row1).perform();
 
@@ -56,8 +56,8 @@ public class TrailerCatalog_UploadImage {
         }
     }
     driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:\\Users\\Neeru\\Downloads\\Comming_soon.jpg");
-    driver.findElement(By.id("submit")).click();
 
+    //Click Open in the pop-up to upload photo
     }
     @AfterTest
     public void closeBrowser(){
