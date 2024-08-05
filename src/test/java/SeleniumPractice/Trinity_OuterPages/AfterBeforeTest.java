@@ -1,4 +1,4 @@
-package SeleniumPractice;
+package SeleniumPractice.Trinity_OuterPages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

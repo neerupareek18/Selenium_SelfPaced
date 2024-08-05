@@ -14,9 +14,10 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.List;
 
-public class TrailerCatalog_UploadImage {
+public class TrailerCatalog_ActionIcon_EditMode {
+    ChromeDriver driver;
     @Test
-    public void NavigateToTrailerCatalog() throws InterruptedException {
+    public void NavigateToTrailerCatalog_ActionColumn() throws InterruptedException {
         ChromeOptions c = new ChromeOptions();
         c.setPageLoadStrategy(PageLoadStrategy.NORMAL);
         c.addArguments("--start-maximized");
@@ -42,23 +43,35 @@ public class TrailerCatalog_UploadImage {
         driver.findElement(By.xpath("//span[@title='Trailer Catalog']")).click();
 
         Thread.sleep(10000);
-        WebElement row1 = driver.findElement(By.xpath("//table[@id='DataTables_Table_0']/tbody/descendant::tr"));
+        WebElement row1 = driver.findElement(By.xpath("//table[@id='DataTables_Table_0']/tbody/descendant::tr[1]"));
         Actions a = new Actions(driver);
-        a.doubleClick(row1).perform();
+
+       driver.findElement(By.xpath("//table[@id='DataTables_Table_0']/tbody/descendant::tr[1]/td[12]/i")).click();
+        List<WebElement> actionicons = driver.findElements(By.xpath("//table[@id='DataTables_Table_0']/tbody/descendant::tr[1]/td[12]/descendant::a"));
+
+//        for(WebElement a1: actionicons){
+//    if(a1.getAttribute("title").equalsIgnoreCase("Click to edit record")){
+//        a1.click();
+//        System.out.println("Edit is clicked");
+//    }
+//}
+        driver.findElement(By.xpath("//table[@id='DataTables_Table_0']/tbody/descendant::tr[1]/td[12]/descendant::a[2]/i[@class='fa fa-edit']")).click();
 
         List<WebElement> accordians = driver.findElements(By.xpath("//div[@class='accordionItem close']"));
-    for(WebElement a1 : accordians){
-        if(a1.getText().equalsIgnoreCase("Images")){
-            a1.click();
-            break;
+        for(WebElement a1 : accordians){
+            if(a1.getText().equalsIgnoreCase("Images")){
+                a1.click();
+                break;
+            }
         }
-    }
-    driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:\\Users\\Neeru\\Downloads\\Comming_soon.jpg");
 
-    //Click Open in the pop-up to upload photo
+        //Upload images
+        w.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
+        driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:\\Users\\Neeru\\Downloads\\Comming_soon.jpg");
+
+        //Click Open in the pop-up to upload photo
     }
 
-    ChromeDriver driver;
     @AfterTest
     public void closeBrowser(){
         driver.quit();

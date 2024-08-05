@@ -1,4 +1,4 @@
-package SeleniumPractice;
+package SeleniumPractice.Trinity_OuterPages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.PageLoadStrategy;
