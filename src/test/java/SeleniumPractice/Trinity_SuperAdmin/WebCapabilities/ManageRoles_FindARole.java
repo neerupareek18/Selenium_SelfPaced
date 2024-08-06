@@ -49,7 +49,7 @@ public class ManageRoles_FindARole {
 
     @Test
     public void findARoleName() throws InterruptedException {
-        String role_name = "Admin";
+        String role_name = "ABCDE";
         Select s = new Select(driver.findElement(By.xpath("//select[@name='DataTables_Table_0_length']")));
         s.selectByValue("10");
 
@@ -77,7 +77,8 @@ public class ManageRoles_FindARole {
              else{
                  w.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div/a[@id='DataTables_Table_0_next']")));
                  Thread.sleep(1000);
-                 nextbutton.click();}
+                 WebElement nextbutton1 = driver.findElement(By.xpath("//div/a[@id='DataTables_Table_0_next']"));
+                 nextbutton1.click();}
              }
          if(!b){
              System.out.println("Role not found");

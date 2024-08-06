@@ -80,3 +80,46 @@ a.clickAndHold(from).moveToElement(to).release(to).build().perform();
      */
 
      https://awesomeqa.com/practice.html
+
+     /*
+     Stale Element -- When the element forgets the original state - need to define it again to perform any action
+     */
+
+     -- To surround the block of code with if/else, try/catch, etc. -- cntrl+alt+T
+
+     --------------------------------------------------------------------------------------------
+
+     - POM and Page Factory-
+
+     POM
+     class -- attributes and methods
+     attributes:
+     private By username = By.id("username");
+
+     public void login(String usrnm, String pswd){
+     driver.findElement(username).sendkeys(usrnm)
+     }
+
+     PF
+
+     Login(){ //Constructor
+     WebDriver d = ChromeDriver();
+     PageFacotry.initElements(driver, this);
+     } //When the object is called, all the elements will be loaded in RAM
+
+     class --
+     attributes
+     @FindBy(id = "userame");
+     WebElement username;
+
+     or
+
+     @FindBy(How = ID/XPATH/CSSSELECTOR/ETC., using = "userame");
+          WebElement username;
+
+     public void login(String usrnm, String pswd){
+          username.sendkeys(usrnm)
+          }
+
+          Calling POM
+          When POM is initialised, only the constructor will be called, the elements will not be located (not loaded in the memory)

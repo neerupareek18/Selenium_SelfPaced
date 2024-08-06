@@ -2,6 +2,7 @@ package SeleniumPractice.Trinity_SuperAdmin.Services;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.PageLoadStrategy;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -49,13 +50,19 @@ public class TrailerCatalog_ActionIcon_EditMode {
        driver.findElement(By.xpath("//table[@id='DataTables_Table_0']/tbody/descendant::tr[1]/td[12]/i")).click();
         List<WebElement> actionicons = driver.findElements(By.xpath("//table[@id='DataTables_Table_0']/tbody/descendant::tr[1]/td[12]/descendant::a"));
 
-//        for(WebElement a1: actionicons){
-//    if(a1.getAttribute("title").equalsIgnoreCase("Click to edit record")){
-//        a1.click();
-//        System.out.println("Edit is clicked");
-//    }
-//}
-        driver.findElement(By.xpath("//table[@id='DataTables_Table_0']/tbody/descendant::tr[1]/td[12]/descendant::a[2]/i[@class='fa fa-edit']")).click();
+        for(WebElement a1: actionicons){
+    try {
+        if (a1.getAttribute("title").equalsIgnoreCase("Click to edit record")) {
+            a1.click();
+            System.out.println("Edit is clicked");
+            break;
+        }
+    }catch(StaleElementReferenceException e){
+        System.out.println("Error Message-->"+e);
+    }
+}
+
+       // driver.findElement(By.xpath("//table[@id='DataTables_Table_0']/tbody/descendant::tr[1]/td[12]/descendant::a[2]/i[@class='fa fa-edit']")).click();
 
         List<WebElement> accordians = driver.findElements(By.xpath("//div[@class='accordionItem close']"));
         for(WebElement a1 : accordians){
