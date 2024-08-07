@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Details_Page_InquireNow {
+public class DetailsPage_InquireNow {
 
     WebDriver driver;
     @Test

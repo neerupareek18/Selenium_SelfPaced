@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Trailer Catalog Customer Page">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/Details_Page_InquireNow_Download.java" afterDir="false" />
+    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Deatils Page - Inquire Now">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/DetailsPage_SimilarTrailers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/DetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/DetailsPage_SaveItem_ApplyNow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/GettingAllTrailerNames_SaveItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/ListingPage_AllTrailerNames_SaveItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/Details_Page_InquireNow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/DetailsPage_InquireNow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +170,25 @@
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Details_Page_InquireNow.detailsPage_Inquire_Download">
+  <component name="RunManager" selected="TestNG.DetailsPage_InquireNow.detailsPage_Inquire_Download">
+    <configuration name="DetailsPage_InquireNow.detailsPage_Inquire_Download" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.CustomerPortal.TrailerCatalog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog.DetailsPage_InquireNow" />
+      <option name="METHOD_NAME" value="detailsPage_Inquire_Download" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DetailsPage_SaveItem_ApplyNow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <extension name="coverage">
@@ -200,24 +217,6 @@
       <option name="PACKAGE_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog" />
       <option name="MAIN_CLASS_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog.DetailsPage_SaveItem_ApplyNow" />
       <option name="METHOD_NAME" value="detailsPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Details_Page_InquireNow.detailsPage_Inquire_Download" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.CustomerPortal.TrailerCatalog.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog.Details_Page_InquireNow" />
-      <option name="METHOD_NAME" value="detailsPage_Inquire_Download" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -335,7 +334,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Details_Page_InquireNow.detailsPage_Inquire_Download" />
+        <item itemvalue="TestNG.DetailsPage_InquireNow.detailsPage_Inquire_Download" />
         <item itemvalue="TestNG.Details_Page_InquireNow.detailsPage_Inquire_Download" />
         <item itemvalue="TestNG.DetailsPage_SaveItem_ApplyNow.detailsPage" />
         <item itemvalue="TestNG.DetailsPage_SaveItem_ApplyNow" />
@@ -480,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722965294849</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Deatils Page - Inquire Now">
+      <option name="closed" value="true" />
+      <created>1723030909018</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723030909019</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -497,7 +504,8 @@
     <MESSAGE value="Trailer Catalog choose image and Forgot Password (Reset Password)" />
     <MESSAGE value="Traversing Action Items" />
     <MESSAGE value="Trailer Catalog Customer Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trailer Catalog Customer Page" />
+    <MESSAGE value="Deatils Page - Inquire Now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deatils Page - Inquire Now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
