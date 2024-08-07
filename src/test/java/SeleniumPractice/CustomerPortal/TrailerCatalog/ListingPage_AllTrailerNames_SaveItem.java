@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class GettingAllTrailerNames_SaveItem {
+public class ListingPage_AllTrailerNames_SaveItem {
     WebDriver driver;
 
     @BeforeTest

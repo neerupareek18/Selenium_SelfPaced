@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Traversing Action Items">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/DetailsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/GettingAllTrailerNames_SaveItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/NavigatingToTrailerCatalog.java" afterDir="false" />
+    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Trailer Catalog Customer Page">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/Details_Page_InquireNow_Download.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium Notes" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium Notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/Services/TrailerCatalog_ActionIcon_EditMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/Services/TrailerCatalog_ActionIcon_EditMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindARole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindARole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/DetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/DetailsPage_SaveItem_ApplyNow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/GettingAllTrailerNames_SaveItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/ListingPage_AllTrailerNames_SaveItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +59,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.AfterBeforeTest.executor": "Run",
     "TestNG.C:/Users/Neeru/IdeaProjects/SeleniumPrograms/testng.xml.executor": "Coverage",
+    "TestNG.DetailsPage.detailsPage.executor": "Run",
+    "TestNG.DetailsPage.executor": "Run",
+    "TestNG.Details_Page_InquireNow_Download.detailsPage_Inquire_Download (1).executor": "Run",
+    "TestNG.Details_Page_InquireNow_Download.detailsPage_Inquire_Download.executor": "Run",
     "TestNG.GettingAllTrailerNames.allTrailerNames (1).executor": "Run",
     "TestNG.GettingAllTrailerNames.allTrailerNames (2).executor": "Run",
     "TestNG.GettingAllTrailerNames.allTrailerNames.executor": "Run",
@@ -171,8 +171,8 @@
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.GettingAllTrailerNames_SaveItem.allTrailerNames">
-    <configuration name="GettingAllTrailerNames_SaveItem" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Details_Page_InquireNow.detailsPage_Inquire_Download">
+    <configuration name="DetailsPage_SaveItem_ApplyNow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <extension name="coverage">
         <pattern>
@@ -181,7 +181,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog.GettingAllTrailerNames_SaveItem" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog.DetailsPage_SaveItem_ApplyNow" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -189,7 +189,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GettingAllTrailerNames_SaveItem.allTrailerNames (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DetailsPage_SaveItem_ApplyNow.detailsPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <extension name="coverage">
         <pattern>
@@ -198,8 +198,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog.GettingAllTrailerNames_SaveItem" />
-      <option name="METHOD_NAME" value="allTrailerNames" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog.DetailsPage_SaveItem_ApplyNow" />
+      <option name="METHOD_NAME" value="detailsPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Details_Page_InquireNow.detailsPage_Inquire_Download" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.CustomerPortal.TrailerCatalog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog.Details_Page_InquireNow" />
+      <option name="METHOD_NAME" value="detailsPage_Inquire_Download" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Details_Page_InquireNow.detailsPage_Inquire_Download" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBasics_SelfPaced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumPractice.CustomerPortal.TrailerCatalog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog.Details_Page_InquireNow" />
+      <option name="METHOD_NAME" value="detailsPage_Inquire_Download" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -243,7 +279,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GettingAllTrailerNames_SaveItem.allTrailerNames" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ListingPage_AllTrailerNames_SaveItem.allTrailerNames" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <extension name="coverage">
         <pattern>
@@ -252,7 +288,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog.GettingAllTrailerNames_SaveItem" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog.ListingPage_AllTrailerNames_SaveItem" />
       <option name="METHOD_NAME" value="allTrailerNames" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -261,7 +297,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GettingAllTrailerNames.allTrailerNames (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ListingPage_AllTrailerNames_SaveItem.allTrailerNames" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBasics_SelfPaced" />
       <extension name="coverage">
         <pattern>
@@ -270,44 +306,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog.GettingAllTrailerNames" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog.ListingPage_AllTrailerNames_SaveItem" />
       <option name="METHOD_NAME" value="allTrailerNames" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GettingAllTrailerNames.allTrailerNames" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.CustomerPortal.TrailerCatalog.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog.GettingAllTrailerNames" />
-      <option name="METHOD_NAME" value="allTrailerNames" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NavigatingToTrailerCatalog.navigateToTrailerCatalo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.CustomerPortal.TrailerCatalog.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.CustomerPortal.TrailerCatalog.NavigatingToTrailerCatalog" />
-      <option name="METHOD_NAME" value="navigateToTrailerCatalo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -326,42 +326,6 @@
       <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.Services" />
       <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.Services.TrailerCatalog_ActionIcon_EditMode" />
       <option name="METHOD_NAME" value="NavigateToTrailerCatalog_ActionColumn" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrailerCatalog_ActionIcon_EditMode.NavigateToTrailerCatalog_ActionColumn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.Services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.Services" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.Services.TrailerCatalog_ActionIcon_EditMode" />
-      <option name="METHOD_NAME" value="NavigateToTrailerCatalog_ActionColumn" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Trinity_ForgotPasswordPage.NonExistingEmailAddress" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumBasics_SelfPaced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumPractice.Trinity_OuterPages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_OuterPages.Trinity_ForgotPasswordPage" />
-      <option name="METHOD_NAME" value="NonExistingEmailAddress" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -371,11 +335,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GettingAllTrailerNames_SaveItem.allTrailerNames" />
-        <item itemvalue="TestNG.GettingAllTrailerNames_SaveItem.allTrailerNames (1)" />
-        <item itemvalue="TestNG.GettingAllTrailerNames_SaveItem.allTrailerNames" />
-        <item itemvalue="TestNG.GettingAllTrailerNames_SaveItem.allTrailerNames" />
-        <item itemvalue="TestNG.GettingAllTrailerNames_SaveItem" />
+        <item itemvalue="TestNG.Details_Page_InquireNow.detailsPage_Inquire_Download" />
+        <item itemvalue="TestNG.Details_Page_InquireNow.detailsPage_Inquire_Download" />
+        <item itemvalue="TestNG.DetailsPage_SaveItem_ApplyNow.detailsPage" />
+        <item itemvalue="TestNG.DetailsPage_SaveItem_ApplyNow" />
+        <item itemvalue="TestNG.ListingPage_AllTrailerNames_SaveItem.allTrailerNames" />
       </list>
     </recent_temporary>
   </component>
@@ -508,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722845791496</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Trailer Catalog Customer Page">
+      <option name="closed" value="true" />
+      <created>1722965294848</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722965294849</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -524,7 +496,8 @@
     <MESSAGE value="Manage Roles and Trailer Catalog" />
     <MESSAGE value="Trailer Catalog choose image and Forgot Password (Reset Password)" />
     <MESSAGE value="Traversing Action Items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Traversing Action Items" />
+    <MESSAGE value="Trailer Catalog Customer Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trailer Catalog Customer Page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
