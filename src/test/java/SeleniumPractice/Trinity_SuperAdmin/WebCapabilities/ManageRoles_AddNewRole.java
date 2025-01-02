@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-
+@Test
 public class ManageRoles_AddNewRole {
     WebDriver driver;
     boolean record_exist=false;

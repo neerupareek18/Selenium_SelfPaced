@@ -82,7 +82,7 @@ Xpath Axes ---
 
     signInButton.click();
 
-    Thread.sleep(3000);
+    Thread.sleep(10000);
 
     Assert.assertEquals(driver.getCurrentUrl(),"https://atlas-web-qa.azurewebsites.net/dashboard");
 
