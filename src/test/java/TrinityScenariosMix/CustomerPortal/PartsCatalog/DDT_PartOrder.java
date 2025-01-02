@@ -1,6 +1,6 @@
-package CustomerPartsCatalog;
+package TrinityScenariosMix.CustomerPortal.PartsCatalog;
 
-import ReadingExcelFile.ReadExcel;
+import utilities.ReadExcel;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;

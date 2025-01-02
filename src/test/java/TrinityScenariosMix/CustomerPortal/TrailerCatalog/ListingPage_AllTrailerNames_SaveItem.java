@@ -1,4 +1,4 @@
-package SeleniumPractice.CustomerPortal.TrailerCatalog;
+package TrinityScenariosMix.CustomerPortal.TrailerCatalog;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -18,7 +18,7 @@ public class ListingPage_AllTrailerNames_SaveItem {
     WebDriver driver;
 
     @BeforeTest
-    public void navigateToTrailerCatalo() {
+    public void navigateToTrailerCatalog() {
         ChromeOptions c = new ChromeOptions();
         c.addArguments("--start-maximized");
         c.addArguments("--incognito");

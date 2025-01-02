@@ -1,4 +1,4 @@
-package SeleniumPractice.Trinity_OuterPages;
+package TrinityScenariosMix.AdminPortal.Trinity_OuterPages;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;

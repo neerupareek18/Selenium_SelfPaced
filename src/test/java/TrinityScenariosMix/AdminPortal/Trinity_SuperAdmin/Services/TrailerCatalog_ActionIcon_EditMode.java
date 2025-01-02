@@ -1,4 +1,4 @@
-package SeleniumPractice.Trinity_SuperAdmin.Services;
+package TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.Services;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.PageLoadStrategy;

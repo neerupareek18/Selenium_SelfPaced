@@ -1,4 +1,4 @@
-package SeleniumPractice.Trinity_SuperAdmin.WebCapabilities;
+package TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.WebCapabilities;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;

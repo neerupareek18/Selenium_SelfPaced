@@ -1,4 +1,4 @@
-package SeleniumPractice.CustomerPortal.TrailerCatalog;
+package TrinityScenariosMix.CustomerPortal.TrailerCatalog;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

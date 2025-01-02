@@ -1,11 +1,10 @@
-package SeleniumPractice.CustomerPortal.TrailerCatalog;
+package TrinityScenariosMix.CustomerPortal.TrailerCatalog;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -15,12 +14,11 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class DetailsPage_InquireNow {
+public class DetailsPage_InquireNow_Download {
 
-    WebDriver driver;
+    WebDriver driver=new ChromeDriver();
     @Test
     public void detailsPage_Inquire_Download() throws InterruptedException {
-        driver = new ChromeDriver();
         driver.get("https://shop.trinitytrailer.com/trailer-catalog");
         driver.manage().window().maximize();
         Thread.sleep(5000);
@@ -33,7 +31,7 @@ public class DetailsPage_InquireNow {
         viewDetails.click();
         Thread.sleep(5000);
 
-        //Inquire Now
+//        //Inquire Now
         driver.findElement(By.xpath("//div/a[@class='product-btn btn']")).click();
         for(int i=1;i<=3;i++){
             driver.findElement(By.tagName("body")).sendKeys(Keys.PAGE_UP);
@@ -60,9 +58,10 @@ public class DetailsPage_InquireNow {
         Thread.sleep(1000);
 
         //Download Quote
-        Actions a = new Actions(driver);
-        a.moveToElement(driver.findElement(By.linkText("Download Quote"))).click();
-        Thread.sleep(10000);
+//        Actions a = new Actions(driver);
+//        a.moveToElement(driver.findElement(By.xpath("//a/u[text()='Download Quote ']"))).click();
+        driver.findElement(By.xpath("//a/u[text()='Download Quote ']")).click();
+        Thread.sleep(180000);
 
 
     }

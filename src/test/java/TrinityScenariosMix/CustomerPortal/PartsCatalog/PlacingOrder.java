@@ -1,4 +1,4 @@
-package CustomerPartsCatalog;
+package TrinityScenariosMix.CustomerPortal.PartsCatalog;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

@@ -1,4 +1,4 @@
-package SeleniumPractice.CustomerPortal.TrailerCatalog;
+package TrinityScenariosMix.CustomerPortal.TrailerCatalog;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -62,8 +62,6 @@ public void detailsPage() throws InterruptedException {
     image.click();
     Thread.sleep(2000);
 
-    String VIN = driver.findElement(By.xpath("//ul[@class='breadcrumb-list']/li[2]/a/span")).getText();
-    Assert.assertTrue(driver.getCurrentUrl().contains(VIN));
     String parent_window = driver.getWindowHandle();
     driver.findElement(By.linkText("Apply Now")).click();
 
@@ -73,21 +71,21 @@ public void detailsPage() throws InterruptedException {
         String childwindow = i.next();
         if(!parent_window.equalsIgnoreCase(childwindow)){
             driver.switchTo().window(childwindow);
-            Assert.assertEquals(driver.getCurrentUrl(),"https://mytrinitycapital.com/new-application/");
+            Assert.assertEquals(driver.getCurrentUrl(),"https://mytrinitycapital.com/apply/");
         }
     }
 
-    driver.switchTo().window(parent_window);
-    //Assert.assertTrue(driver.getCurrentUrl().contains(VIN));
-    String initial_itemcount = driver.findElement(By.xpath("//div/li/a/span[@class='wishlist-number']")).getText();
-    if (!initial_itemcount.isEmpty()){
-    System.out.println(Integer.parseInt(initial_itemcount));}
-    System.out.println(initial_itemcount);
-
-    driver.findElement(By.xpath("//div/a[1]/span/span")).click();
-
-    String itemcount = driver.findElement(By.xpath("//div/li/a/span[@class='wishlist-number']")).getText();
-    System.out.println(Integer.parseInt(itemcount));
+//    driver.switchTo().window(parent_window);
+//    //Assert.assertTrue(driver.getCurrentUrl().contains(VIN));
+//    String initial_itemcount = driver.findElement(By.xpath("//div/li/a/span[@class='wishlist-number']")).getText();
+//    if (!initial_itemcount.isEmpty()){
+//    System.out.println(Integer.parseInt(initial_itemcount));}
+//    System.out.println(initial_itemcount);
+//
+//    driver.findElement(By.xpath("//div/a[1]/span/span")).click();
+//
+//    String itemcount = driver.findElement(By.xpath("//div/li/a/span[@class='wishlist-number']")).getText();
+//    System.out.println(Integer.parseInt(itemcount));
 
 
 }

@@ -4,16 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Deatils Page - Inquire Now">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerPartsCatalog/DDT_PartOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerPartsCatalog/PlacingOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DataFiles/PartNames.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ReadingExcelFile/ReadExcel.java" afterDir="false" />
+    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Parts Catalog Customer Portal -- DDT">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/partsCatalogHomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/Trinity_SignInPage_Positive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/Trinity_SignInPage_Positive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/Services/TrailerCatalog_UploadImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerPartsCatalog/DDT_PartOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/DDT_PartOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerPartsCatalog/PlacingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/PlacingOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReadingExcelFile/ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReadExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/DetailsPage_InquireNow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/TrailerCatalog/DetailsPage_InquireNow_Download.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/DetailsPage_SaveItem_ApplyNow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/TrailerCatalog/DetailsPage_SaveItem_ApplyNow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/DetailsPage_SimilarTrailers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/ListingPage_AllTrailerNames_SaveItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/TrailerCatalog/ListingPage_AllTrailerNames_SaveItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/NavigatingToTrailerCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/TrailerCatalog/NavigatingToTrailerCatalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/AfterBeforeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/AfterBeforeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/Launching_NavigatingToSites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Launching_NavigatingToSites.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/Trinity_ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Trinity_ForgotPasswordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/Trinity_SignInPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Trinity_SignInPageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/Trinity_SignInPage_Negative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Trinity_SignInPage_Negative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/Trinity_SignInPage_Positive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Trinity_SignInPage_Positive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/Trinity_SignUpPage_Negative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Trinity_SignUpPage_Negative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/Services/TrailerCatalog_ActionIcon_EditMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/Services/TrailerCatalog_ActionIcon_EditMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindAColumnName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindAColumnName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindARole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindARole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManagerPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManagerPermission.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,132 +68,138 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.FileIO.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PasswordValidator.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.AfterBeforeTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/Neeru/IdeaProjects/SeleniumPrograms/testng.xml.executor&quot;: &quot;Coverage&quot;,
-    &quot;TestNG.DDT_PartOrder.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DetailsPage.detailsPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DetailsPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Details_Page_InquireNow_Download.detailsPage_Inquire_Download (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Details_Page_InquireNow_Download.detailsPage_Inquire_Download.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GettingAllTrailerNames.allTrailerNames (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GettingAllTrailerNames.allTrailerNames (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GettingAllTrailerNames.allTrailerNames.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GettingAllTrailerNames.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GettingAllTrailerNames_SaveItem.allTrailerNames (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GettingAllTrailerNames_SaveItem.allTrailerNames.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Lab001.LoginPageErrorMessages.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LaunchingSite.LaunchingPortalNavigateToCustomerSite.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Launching_NavigatingToSites.LaunchingAndNavigation.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Locators.LoginValidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Locators.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login.LoginNoUsernameAndPassword.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login.LoginValidCredentials (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login.LoginValidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login.Login_Negative_Positive.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login.Login_NoUsername.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login_Negative_Trinity.LoginIncorrectUsername (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login_Negative_Trinity.LoginIncorrectUsername.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login_Negative_Trinity.LoginNoPassword.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login_Negative_Trinity.LoginNoUsername.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login_Positive_Trinity.Login_ValidCredentials (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login_Positive_Trinity.Login_ValidCredentials (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login_Positive_Trinity.Login_ValidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles.AddNewRole (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles.AddNewRole.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles.AddNewRoleForEmployee (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles.AddNewRoleForEmployee (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles.AddNewRoleForEmployee (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles.AddNewRoleForEmployee.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles_AddNewRole.AddNewRoleForEmployee.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles_AddNewRole.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles_FindARole (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles_FindARole.TraverseRoleTable (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles_FindARole.TraverseRoleTable (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles_FindARole.TraverseRoleTable (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles_FindARole.TraverseRoleTable (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles_FindARole.TraverseRoleTable.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles_FindARole.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles_FindARole.findARoleName (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles_FindARole.findARoleName (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles_FindARole.findARoleName (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles_FindARole.findARoleName (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles_FindARole.findARoleName (5).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManageRoles_FindARole.findARoleName.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManagerPermission.NavigateToManagerPermissions (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManagerPermission.NavigateToManagerPermissions (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ManagerPermission.NavigateToManagerPermissions.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NavigatingToTrailerCatalog.navigateToTrailerCatalo.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NavigationAndOuterPagesElements.ForgotPassword (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NavigationAndOuterPagesElements.ForgotPassword (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NavigationAndOuterPagesElements.ForgotPassword (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NavigationAndOuterPagesElements.ForgotPassword (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NavigationAndOuterPagesElements.ForgotPassword (5).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NavigationAndOuterPagesElements.ForgotPassword.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PlacingOrder.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PlacingOrder.navigatingToSite.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ReadExcelClass.readExcel.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SampleTesting.sampleTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignInPageElements.ElementsOnSignInPage (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignInPageElements.ElementsOnSignInPage (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignInPageElements.ElementsOnSignInPage (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignInPageElements.ElementsOnSignInPage (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignInPageElements.ElementsOnSignInPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Negative_Trinity.SignUpPasswordNotMatching.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Trinity.SignUp_InvalidEmail (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Trinity.SignUp_InvalidEmail (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Trinity.SignUp_InvalidEmail (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Trinity.SignUp_InvalidEmail (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Trinity.SignUp_InvalidEmail (5).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Trinity.SignUp_InvalidEmail.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SignUp_Trinity.SignUp_NoMandatoryField.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TrailerCatalog_ActionIcon.NavigateToTrailerCatalog_ActionColumn (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TrailerCatalog_ActionIcon.NavigateToTrailerCatalog_ActionColumn (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TrailerCatalog_ActionIcon.NavigateToTrailerCatalog_ActionColumn.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TrailerCatalog_ActionIcon_EditMode.NavigateToTrailerCatalog_ActionColumn (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TrailerCatalog_ActionIcon_EditMode.NavigateToTrailerCatalog_ActionColumn.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TrailerCatalog_UploadImage.NavigateToManagerPermissions (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TrailerCatalog_UploadImage.NavigateToManagerPermissions (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TrailerCatalog_UploadImage.NavigateToManagerPermissions.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Trinity_ForgotPasswordPage (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Trinity_ForgotPasswordPage.ExistingEmailAddress (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Trinity_ForgotPasswordPage.ExistingEmailAddress.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Trinity_ForgotPasswordPage.ExistingEmailAddress_ResetPassword.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Trinity_ForgotPasswordPage.InvalidEmailAddress.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Trinity_ForgotPasswordPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Trinity_SignInPageElements.ElementsOnSignInPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Trinity_SignInPage_Positive.Login_ValidCredentials.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Trinity_TrailerCatalog_UploadFile.NavigateToManagerPermissions.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Neeru/IdeaProjects/SeleniumPrograms/src/test/java/DataFiles&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.FileIO.executor": "Run",
+    "Application.PasswordValidator.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AfterBeforeTest.executor": "Run",
+    "TestNG.C:/Users/Neeru/IdeaProjects/SeleniumPrograms/testng.xml.executor": "Coverage",
+    "TestNG.DDT_PartOrder.executor": "Run",
+    "TestNG.DetailsPage.detailsPage.executor": "Run",
+    "TestNG.DetailsPage.executor": "Run",
+    "TestNG.DetailsPage_InquireNow.detailsPage_Inquire_Download.executor": "Run",
+    "TestNG.DetailsPage_InquireNow_Download.detailsPage_Inquire_Download.executor": "Run",
+    "TestNG.DetailsPage_SaveItem_ApplyNow.detailsPage.executor": "Run",
+    "TestNG.Details_Page_InquireNow_Download.detailsPage_Inquire_Download (1).executor": "Run",
+    "TestNG.Details_Page_InquireNow_Download.detailsPage_Inquire_Download.executor": "Run",
+    "TestNG.GettingAllTrailerNames.allTrailerNames (1).executor": "Run",
+    "TestNG.GettingAllTrailerNames.allTrailerNames (2).executor": "Run",
+    "TestNG.GettingAllTrailerNames.allTrailerNames.executor": "Run",
+    "TestNG.GettingAllTrailerNames.executor": "Run",
+    "TestNG.GettingAllTrailerNames_SaveItem.allTrailerNames (1).executor": "Run",
+    "TestNG.GettingAllTrailerNames_SaveItem.allTrailerNames.executor": "Run",
+    "TestNG.Lab001.LoginPageErrorMessages.executor": "Run",
+    "TestNG.LaunchingSite.LaunchingPortalNavigateToCustomerSite.executor": "Run",
+    "TestNG.Launching_NavigatingToSites.LaunchingAndNavigation.executor": "Run",
+    "TestNG.ListingPage_AllTrailerNames_SaveItem.allTrailerNames.executor": "Run",
+    "TestNG.Locators.LoginValidCredentials.executor": "Run",
+    "TestNG.Locators.executor": "Run",
+    "TestNG.Login.LoginNoUsernameAndPassword.executor": "Run",
+    "TestNG.Login.LoginValidCredentials (1).executor": "Run",
+    "TestNG.Login.LoginValidCredentials.executor": "Run",
+    "TestNG.Login.Login_Negative_Positive.executor": "Run",
+    "TestNG.Login.Login_NoUsername.executor": "Run",
+    "TestNG.Login_Negative_Trinity.LoginIncorrectUsername (1).executor": "Run",
+    "TestNG.Login_Negative_Trinity.LoginIncorrectUsername.executor": "Run",
+    "TestNG.Login_Negative_Trinity.LoginNoPassword.executor": "Run",
+    "TestNG.Login_Negative_Trinity.LoginNoUsername.executor": "Run",
+    "TestNG.Login_Positive_Trinity.Login_ValidCredentials (1).executor": "Run",
+    "TestNG.Login_Positive_Trinity.Login_ValidCredentials (2).executor": "Run",
+    "TestNG.Login_Positive_Trinity.Login_ValidCredentials.executor": "Run",
+    "TestNG.ManageRoles (1).executor": "Run",
+    "TestNG.ManageRoles (2).executor": "Run",
+    "TestNG.ManageRoles (3).executor": "Run",
+    "TestNG.ManageRoles (4).executor": "Run",
+    "TestNG.ManageRoles.AddNewRole (1).executor": "Run",
+    "TestNG.ManageRoles.AddNewRole.executor": "Run",
+    "TestNG.ManageRoles.AddNewRoleForEmployee (1).executor": "Run",
+    "TestNG.ManageRoles.AddNewRoleForEmployee (2).executor": "Run",
+    "TestNG.ManageRoles.AddNewRoleForEmployee (3).executor": "Run",
+    "TestNG.ManageRoles.AddNewRoleForEmployee.executor": "Run",
+    "TestNG.ManageRoles.executor": "Run",
+    "TestNG.ManageRoles_AddNewRole.AddNewRoleForEmployee.executor": "Run",
+    "TestNG.ManageRoles_AddNewRole.executor": "Run",
+    "TestNG.ManageRoles_FindARole (1).executor": "Run",
+    "TestNG.ManageRoles_FindARole.TraverseRoleTable (1).executor": "Run",
+    "TestNG.ManageRoles_FindARole.TraverseRoleTable (2).executor": "Run",
+    "TestNG.ManageRoles_FindARole.TraverseRoleTable (3).executor": "Run",
+    "TestNG.ManageRoles_FindARole.TraverseRoleTable (4).executor": "Run",
+    "TestNG.ManageRoles_FindARole.TraverseRoleTable.executor": "Run",
+    "TestNG.ManageRoles_FindARole.executor": "Run",
+    "TestNG.ManageRoles_FindARole.findARoleName (1).executor": "Run",
+    "TestNG.ManageRoles_FindARole.findARoleName (2).executor": "Run",
+    "TestNG.ManageRoles_FindARole.findARoleName (3).executor": "Run",
+    "TestNG.ManageRoles_FindARole.findARoleName (4).executor": "Run",
+    "TestNG.ManageRoles_FindARole.findARoleName (5).executor": "Run",
+    "TestNG.ManageRoles_FindARole.findARoleName.executor": "Run",
+    "TestNG.ManagerPermission.NavigateToManagerPermissions (1).executor": "Run",
+    "TestNG.ManagerPermission.NavigateToManagerPermissions (2).executor": "Run",
+    "TestNG.ManagerPermission.NavigateToManagerPermissions.executor": "Run",
+    "TestNG.NavigatingToTrailerCatalog.navigateToTrailerCatalo.executor": "Run",
+    "TestNG.NavigationAndOuterPagesElements.ForgotPassword (1).executor": "Run",
+    "TestNG.NavigationAndOuterPagesElements.ForgotPassword (2).executor": "Run",
+    "TestNG.NavigationAndOuterPagesElements.ForgotPassword (3).executor": "Run",
+    "TestNG.NavigationAndOuterPagesElements.ForgotPassword (4).executor": "Run",
+    "TestNG.NavigationAndOuterPagesElements.ForgotPassword (5).executor": "Run",
+    "TestNG.NavigationAndOuterPagesElements.ForgotPassword.executor": "Run",
+    "TestNG.PlacingOrder.executor": "Run",
+    "TestNG.PlacingOrder.navigatingToSite.executor": "Run",
+    "TestNG.ReadExcelClass.readExcel.executor": "Run",
+    "TestNG.SampleTesting.sampleTestCase.executor": "Run",
+    "TestNG.SignInPageElements.ElementsOnSignInPage (1).executor": "Run",
+    "TestNG.SignInPageElements.ElementsOnSignInPage (2).executor": "Run",
+    "TestNG.SignInPageElements.ElementsOnSignInPage (3).executor": "Run",
+    "TestNG.SignInPageElements.ElementsOnSignInPage (4).executor": "Run",
+    "TestNG.SignInPageElements.ElementsOnSignInPage.executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (1).executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (2).executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword (3).executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUpInvalidPassword.executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUpPasswordNotMatching.executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (1).executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (2).executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (3).executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail (4).executor": "Run",
+    "TestNG.SignUp_Negative_Trinity.SignUp_InvalidEmail.executor": "Run",
+    "TestNG.SignUp_Trinity.SignUp_InvalidEmail (1).executor": "Run",
+    "TestNG.SignUp_Trinity.SignUp_InvalidEmail (2).executor": "Run",
+    "TestNG.SignUp_Trinity.SignUp_InvalidEmail (3).executor": "Run",
+    "TestNG.SignUp_Trinity.SignUp_InvalidEmail (4).executor": "Run",
+    "TestNG.SignUp_Trinity.SignUp_InvalidEmail (5).executor": "Run",
+    "TestNG.SignUp_Trinity.SignUp_InvalidEmail.executor": "Run",
+    "TestNG.SignUp_Trinity.SignUp_NoMandatoryField.executor": "Run",
+    "TestNG.TrailerCatalog_ActionIcon.NavigateToTrailerCatalog_ActionColumn (1).executor": "Run",
+    "TestNG.TrailerCatalog_ActionIcon.NavigateToTrailerCatalog_ActionColumn (2).executor": "Run",
+    "TestNG.TrailerCatalog_ActionIcon.NavigateToTrailerCatalog_ActionColumn.executor": "Run",
+    "TestNG.TrailerCatalog_ActionIcon_EditMode.NavigateToTrailerCatalog_ActionColumn (1).executor": "Run",
+    "TestNG.TrailerCatalog_ActionIcon_EditMode.NavigateToTrailerCatalog_ActionColumn.executor": "Run",
+    "TestNG.TrailerCatalog_UploadImage.NavigateToManagerPermissions (1).executor": "Run",
+    "TestNG.TrailerCatalog_UploadImage.NavigateToManagerPermissions (2).executor": "Run",
+    "TestNG.TrailerCatalog_UploadImage.NavigateToManagerPermissions.executor": "Run",
+    "TestNG.Trinity_ForgotPasswordPage (1).executor": "Run",
+    "TestNG.Trinity_ForgotPasswordPage.ExistingEmailAddress (1).executor": "Run",
+    "TestNG.Trinity_ForgotPasswordPage.ExistingEmailAddress.executor": "Run",
+    "TestNG.Trinity_ForgotPasswordPage.ExistingEmailAddress_ResetPassword.executor": "Run",
+    "TestNG.Trinity_ForgotPasswordPage.InvalidEmailAddress.executor": "Run",
+    "TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress (1).executor": "Run",
+    "TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress (2).executor": "Run",
+    "TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress (3).executor": "Run",
+    "TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress.executor": "Run",
+    "TestNG.Trinity_ForgotPasswordPage.executor": "Run",
+    "TestNG.Trinity_SignInPageElements.ElementsOnSignInPage.executor": "Run",
+    "TestNG.Trinity_SignInPage_Positive.Login_ValidCredentials.executor": "Run",
+    "TestNG.Trinity_TrailerCatalog_UploadFile.NavigateToManagerPermissions.executor": "Run",
+    "TestNG.partsCatalogHomePage.clickOnTile.executor": "Run",
+    "TestNG.partsCatalogHomePage.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Neeru/IdeaProjects/SeleniumPrograms/src/test/java/DataFiles",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Neeru\IdeaProjects\SeleniumPrograms\src\test\java\DataFiles" />
@@ -192,35 +211,18 @@
       <recent name="ReadingExcelFile" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DDT_PartOrder">
-    <configuration name="DDT_PartOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.partsCatalogHomePage.clickOnTile">
+    <configuration name="DetailsPage_InquireNow_Download.detailsPage_Inquire_Download" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TrinityScenarios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CustomerPartsCatalog.*" />
+          <option name="PATTERN" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CustomerPartsCatalog" />
-      <option name="MAIN_CLASS_NAME" value="CustomerPartsCatalog.DDT_PartOrder" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DDT_PartOrder.readExcel" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TrinityScenarios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CustomerPartsCatalog.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CustomerPartsCatalog" />
-      <option name="MAIN_CLASS_NAME" value="CustomerPartsCatalog.DDT_PartOrder" />
-      <option name="METHOD_NAME" value="readExcel" />
+      <option name="PACKAGE_NAME" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog" />
+      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog.DetailsPage_InquireNow_Download" />
+      <option name="METHOD_NAME" value="detailsPage_Inquire_Download" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -228,16 +230,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManageRoles_AddNewRole" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DetailsPage_SaveItem_ApplyNow.detailsPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TrinityScenarios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.*" />
+          <option name="PATTERN" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumPractice.Trinity_SuperAdmin.WebCapabilities.ManageRoles_AddNewRole" />
+      <option name="PACKAGE_NAME" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog" />
+      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog.DetailsPage_SaveItem_ApplyNow" />
+      <option name="METHOD_NAME" value="detailsPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListingPage_AllTrailerNames_SaveItem.allTrailerNames" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TrinityScenarios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog" />
+      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog.ListingPage_AllTrailerNames_SaveItem" />
+      <option name="METHOD_NAME" value="allTrailerNames" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="partsCatalogHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TrinityScenarios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TrinityScenariosMix.CustomerPortal.PartsCatalog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TrinityScenariosMix.CustomerPortal.PartsCatalog" />
+      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.CustomerPortal.PartsCatalog.partsCatalogHomePage" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -245,34 +283,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlacingOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="partsCatalogHomePage.clickOnTile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TrinityScenarios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CustomerPartsCatalog.*" />
+          <option name="PATTERN" value="TrinityScenariosMix.CustomerPortal.PartsCatalog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CustomerPartsCatalog" />
-      <option name="MAIN_CLASS_NAME" value="CustomerPartsCatalog.PlacingOrder" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlacingOrder.navigatingToSite" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TrinityScenarios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CustomerPartsCatalog.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CustomerPartsCatalog" />
-      <option name="MAIN_CLASS_NAME" value="CustomerPartsCatalog.PlacingOrder" />
-      <option name="METHOD_NAME" value="navigatingToSite" />
+      <option name="PACKAGE_NAME" value="TrinityScenariosMix.CustomerPortal.PartsCatalog" />
+      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.CustomerPortal.PartsCatalog.partsCatalogHomePage" />
+      <option name="METHOD_NAME" value="clickOnTile" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -282,11 +303,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DDT_PartOrder" />
-        <item itemvalue="TestNG.DDT_PartOrder.readExcel" />
-        <item itemvalue="TestNG.PlacingOrder" />
-        <item itemvalue="TestNG.PlacingOrder.navigatingToSite" />
-        <item itemvalue="TestNG.ManageRoles_AddNewRole" />
+        <item itemvalue="TestNG.partsCatalogHomePage.clickOnTile" />
+        <item itemvalue="TestNG.partsCatalogHomePage" />
+        <item itemvalue="TestNG.DetailsPage_InquireNow_Download.detailsPage_Inquire_Download" />
+        <item itemvalue="TestNG.DetailsPage_SaveItem_ApplyNow.detailsPage" />
+        <item itemvalue="TestNG.ListingPage_AllTrailerNames_SaveItem.allTrailerNames" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +464,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723044143745</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Parts Catalog Customer Portal -- DDT">
+      <option name="closed" value="true" />
+      <created>1735817217006</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1735817217006</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -461,7 +490,8 @@
     <MESSAGE value="Traversing Action Items" />
     <MESSAGE value="Trailer Catalog Customer Page" />
     <MESSAGE value="Deatils Page - Inquire Now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deatils Page - Inquire Now" />
+    <MESSAGE value="Parts Catalog Customer Portal -- DDT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parts Catalog Customer Portal -- DDT" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeleniumPrograms$C__Users_Neeru_IdeaProjects_SeleniumPrograms_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1722417126236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
