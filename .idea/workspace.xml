@@ -5,28 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Parts Catalog Customer Portal -- DDT">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/partsCatalogHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/PartsCatalog/CustomerOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/MyAccount/ProfileSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/S2_DDT_CustomerOrderPlaced_POEMItemStatusUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/getOrderNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/openingMultipleTabs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerPartsCatalog/DDT_PartOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/DDT_PartOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerPartsCatalog/PlacingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/PlacingOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ReadingExcelFile/ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReadExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/DetailsPage_InquireNow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/TrailerCatalog/DetailsPage_InquireNow_Download.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/DetailsPage_SaveItem_ApplyNow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/TrailerCatalog/DetailsPage_SaveItem_ApplyNow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/DetailsPage_SimilarTrailers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/ListingPage_AllTrailerNames_SaveItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/TrailerCatalog/ListingPage_AllTrailerNames_SaveItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/CustomerPortal/TrailerCatalog/NavigatingToTrailerCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/TrailerCatalog/NavigatingToTrailerCatalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/AfterBeforeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/AfterBeforeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/Launching_NavigatingToSites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Launching_NavigatingToSites.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/Trinity_ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Trinity_ForgotPasswordPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/Trinity_SignInPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Trinity_SignInPageElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/Trinity_SignInPage_Negative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Trinity_SignInPage_Negative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/Trinity_SignInPage_Positive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Trinity_SignInPage_Positive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_OuterPages/Trinity_SignUpPage_Negative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Trinity_SignUpPage_Negative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/Services/TrailerCatalog_ActionIcon_EditMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/Services/TrailerCatalog_ActionIcon_EditMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindAColumnName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindAColumnName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindARole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindARole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumPractice/Trinity_SuperAdmin/WebCapabilities/ManagerPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManagerPermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DataFiles/PartNames.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataFiles/PartNames.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Trinity_SignInPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Trinity_SignInPageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRoleDeleteIt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindARole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindARole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/DDT_PartOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/PlacingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/S1_PlacingOrder_SuccessFailure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +49,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Zulu/zulu-21/lib/src.zip!/java.base/java/net/URL.java" root0="SKIP_INSPECTION" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="ManageRoles_AddNewRoleDeleteIt.AddNewRole_DeleteIt" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -77,7 +72,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.AfterBeforeTest.executor": "Run",
     "TestNG.C:/Users/Neeru/IdeaProjects/SeleniumPrograms/testng.xml.executor": "Coverage",
+    "TestNG.CustomerOrders.CustomerOrderStatusCheck.executor": "Run",
+    "TestNG.CustomerOrders.customerOrders.executor": "Run",
+    "TestNG.CustomerOrders.executor": "Run",
     "TestNG.DDT_PartOrder.executor": "Run",
+    "TestNG.DDT_PartOrder.partsOrdering.executor": "Run",
     "TestNG.DetailsPage.detailsPage.executor": "Run",
     "TestNG.DetailsPage.executor": "Run",
     "TestNG.DetailsPage_InquireNow.detailsPage_Inquire_Download.executor": "Run",
@@ -121,7 +120,9 @@
     "TestNG.ManageRoles.AddNewRoleForEmployee.executor": "Run",
     "TestNG.ManageRoles.executor": "Run",
     "TestNG.ManageRoles_AddNewRole.AddNewRoleForEmployee.executor": "Run",
+    "TestNG.ManageRoles_AddNewRole.AddNewRole_DeleteIt.executor": "Run",
     "TestNG.ManageRoles_AddNewRole.executor": "Run",
+    "TestNG.ManageRoles_AddNewRoleDeleteIt.AddNewRole_DeleteIt.executor": "Run",
     "TestNG.ManageRoles_FindARole (1).executor": "Run",
     "TestNG.ManageRoles_FindARole.TraverseRoleTable (1).executor": "Run",
     "TestNG.ManageRoles_FindARole.TraverseRoleTable (2).executor": "Run",
@@ -147,7 +148,9 @@
     "TestNG.NavigationAndOuterPagesElements.ForgotPassword.executor": "Run",
     "TestNG.PlacingOrder.executor": "Run",
     "TestNG.PlacingOrder.navigatingToSite.executor": "Run",
+    "TestNG.ProfileSection.executor": "Run",
     "TestNG.ReadExcelClass.readExcel.executor": "Run",
+    "TestNG.S2_DDT_GetTransactionAndOrderId.executor": "Run",
     "TestNG.SampleTesting.sampleTestCase.executor": "Run",
     "TestNG.SignInPageElements.ElementsOnSignInPage (1).executor": "Run",
     "TestNG.SignInPageElements.ElementsOnSignInPage (2).executor": "Run",
@@ -190,10 +193,13 @@
     "TestNG.Trinity_ForgotPasswordPage.NonExistingEmailAddress.executor": "Run",
     "TestNG.Trinity_ForgotPasswordPage.executor": "Run",
     "TestNG.Trinity_SignInPageElements.ElementsOnSignInPage.executor": "Run",
+    "TestNG.Trinity_SignInPage_Negative.LoginNoUsernamePassword.executor": "Run",
     "TestNG.Trinity_SignInPage_Positive.Login_ValidCredentials.executor": "Run",
     "TestNG.Trinity_TrailerCatalog_UploadFile.NavigateToManagerPermissions.executor": "Run",
+    "TestNG.openingTwoUrls.openTwoUrls.executor": "Run",
     "TestNG.partsCatalogHomePage.clickOnTile.executor": "Run",
     "TestNG.partsCatalogHomePage.executor": "Run",
+    "TestNG.splitValues.getOrderNumber.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Neeru/IdeaProjects/SeleniumPrograms/src/test/java/DataFiles",
@@ -211,18 +217,18 @@
       <recent name="ReadingExcelFile" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.partsCatalogHomePage.clickOnTile">
-    <configuration name="DetailsPage_InquireNow_Download.detailsPage_Inquire_Download" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Trinity_SignInPage_Negative.LoginNoUsernamePassword">
+    <configuration name="ManageRoles_AddNewRoleDeleteIt.AddNewRole_DeleteIt" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TrinityScenarios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog.*" />
+          <option name="PATTERN" value="TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.WebCapabilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog" />
-      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog.DetailsPage_InquireNow_Download" />
-      <option name="METHOD_NAME" value="detailsPage_Inquire_Download" />
+      <option name="PACKAGE_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.WebCapabilities" />
+      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.WebCapabilities.ManageRoles_AddNewRoleDeleteIt" />
+      <option name="METHOD_NAME" value="AddNewRole_DeleteIt" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -230,17 +236,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetailsPage_SaveItem_ApplyNow.detailsPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ManageRoles_FindARole.findARoleName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TrinityScenarios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog.*" />
+          <option name="PATTERN" value="TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.WebCapabilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog" />
-      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog.DetailsPage_SaveItem_ApplyNow" />
-      <option name="METHOD_NAME" value="detailsPage" />
+      <option name="PACKAGE_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.WebCapabilities" />
+      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.WebCapabilities.ManageRoles_FindARole" />
+      <option name="METHOD_NAME" value="findARoleName" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -248,17 +254,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListingPage_AllTrailerNames_SaveItem.allTrailerNames" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Trinity_SignInPageElements.ElementsOnSignInPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TrinityScenarios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog.*" />
+          <option name="PATTERN" value="TrinityScenariosMix.AdminPortal.Trinity_OuterPages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog" />
-      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.CustomerPortal.TrailerCatalog.ListingPage_AllTrailerNames_SaveItem" />
-      <option name="METHOD_NAME" value="allTrailerNames" />
+      <option name="PACKAGE_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_OuterPages" />
+      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_OuterPages.Trinity_SignInPageElements" />
+      <option name="METHOD_NAME" value="ElementsOnSignInPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -266,34 +272,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="partsCatalogHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Trinity_SignInPage_Negative.LoginNoUsernamePassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TrinityScenarios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TrinityScenariosMix.CustomerPortal.PartsCatalog.*" />
+          <option name="PATTERN" value="TrinityScenariosMix.AdminPortal.Trinity_OuterPages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TrinityScenariosMix.CustomerPortal.PartsCatalog" />
-      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.CustomerPortal.PartsCatalog.partsCatalogHomePage" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_OuterPages" />
+      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_OuterPages.Trinity_SignInPage_Negative" />
+      <option name="METHOD_NAME" value="LoginNoUsernamePassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="partsCatalogHomePage.clickOnTile" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Trinity_SignInPage_Positive.Login_ValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TrinityScenarios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TrinityScenariosMix.CustomerPortal.PartsCatalog.*" />
+          <option name="PATTERN" value="TrinityScenariosMix.AdminPortal.Trinity_OuterPages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TrinityScenariosMix.CustomerPortal.PartsCatalog" />
-      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.CustomerPortal.PartsCatalog.partsCatalogHomePage" />
-      <option name="METHOD_NAME" value="clickOnTile" />
+      <option name="PACKAGE_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_OuterPages" />
+      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_OuterPages.Trinity_SignInPage_Positive" />
+      <option name="METHOD_NAME" value="Login_ValidCredentials" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -303,11 +310,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.partsCatalogHomePage.clickOnTile" />
-        <item itemvalue="TestNG.partsCatalogHomePage" />
-        <item itemvalue="TestNG.DetailsPage_InquireNow_Download.detailsPage_Inquire_Download" />
-        <item itemvalue="TestNG.DetailsPage_SaveItem_ApplyNow.detailsPage" />
-        <item itemvalue="TestNG.ListingPage_AllTrailerNames_SaveItem.allTrailerNames" />
+        <item itemvalue="TestNG.Trinity_SignInPage_Negative.LoginNoUsernamePassword" />
+        <item itemvalue="TestNG.Trinity_SignInPage_Positive.Login_ValidCredentials" />
+        <item itemvalue="TestNG.Trinity_SignInPageElements.ElementsOnSignInPage" />
+        <item itemvalue="TestNG.ManageRoles_FindARole.findARoleName" />
+        <item itemvalue="TestNG.ManageRoles_AddNewRoleDeleteIt.AddNewRole_DeleteIt" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735817217006</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Parts Catalog Customer Portal -- DDT">
+      <option name="closed" value="true" />
+      <created>1735823106476</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1735823106476</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

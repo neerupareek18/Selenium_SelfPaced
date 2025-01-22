@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class PlacingOrder {
+public class S1_PlacingOrder_SuccessFailure {
 
     WebDriver chromeDriver = new ChromeDriver();
     Boolean partFoundCheck=false;

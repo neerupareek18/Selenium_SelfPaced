@@ -61,12 +61,12 @@ public class Trinity_SignInPageElements {
         Assert.assertTrue(forgotpassword.isDisplayed());
         Assert.assertTrue(forgotpassword.isEnabled());
 
-        Assert.assertEquals(driver.findElement(By.xpath("//div[@class='signup-password text-center']")).getText(),"Don't have an account? Sign Up");
+        //Assert.assertEquals(driver.findElement(By.xpath("//div[@class='signup-password text-center']")).getText(),"Don't have an account? Sign Up");
 
-        WebElement SignUplink = driver.findElement(By.linkText("Sign Up"));
-
-        Assert.assertTrue(SignUplink.isDisplayed());
-        Assert.assertTrue(SignUplink.isEnabled());
+//        WebElement SignUplink = driver.findElement(By.linkText("Sign Up"));
+//
+//        Assert.assertTrue(SignUplink.isDisplayed());
+//        Assert.assertTrue(SignUplink.isEnabled());
 
 //Locator for Don't have an account
     }

@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 @Test
-public class ManageRoles_AddNewRole {
+public class ManageRoles_AddNewRoleDeleteIt {
     WebDriver driver;
     boolean record_exist=false;
     String role_name;
@@ -64,12 +64,14 @@ WebElement mr = driver.findElement(By.xpath("//span[text()='Manage Roles']"));
     }
 
     @Test
-    public void AddNewRoleForEmployee() throws InterruptedException {
-        role_name = "TestRole123456";
+    public void AddNewRole_DeleteIt() throws InterruptedException {
+        role_name = "AutTestRoleLast";
         WebDriverWait w4 = new WebDriverWait(driver, Duration.ofSeconds(5));
         w4.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='search']")));
+        Thread.sleep(5000);
 
-        driver.findElement(By.xpath("//input[@type='search']")).sendKeys(role_name);
+        WebElement search = driver.findElement(By.xpath("//input[@type='search']"));
+        search.sendKeys(role_name);
 
 
         if(!(driver.findElement(By.xpath("//*[@id='DataTables_Table_0_wrapper']/table/tbody/tr[1]/td")).getText() == "No matching records found")){
@@ -95,7 +97,7 @@ s.selectByValue("Employee");
         driver.findElement(By.xpath("//button[@name='btnSubmit' and @type='submit']")).click();
 
         if(!(record_exist)) {
-            WebDriverWait w1 = new WebDriverWait(driver, Duration.ofSeconds(5));
+            WebDriverWait w1 = new WebDriverWait(driver, Duration.ofSeconds(10));
             w1.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//p[text()='Success']")));
 
             WebElement successtag = driver.findElement(By.xpath("//p[text()='Success']"));
@@ -106,12 +108,12 @@ s.selectByValue("Employee");
         }
         WebDriverWait w5 = new WebDriverWait(driver, Duration.ofSeconds(5));
         w5.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='search']")));
+        w5.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//i[@class='fa fa-trash ng-star-inserted']")));
 
         driver.findElement(By.xpath("//input[@type='search']")).sendKeys(role_name);
-        w5.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//i[@class='fa fa-trash']")));
-            driver.findElement(By.xpath("//i[@class='fa fa-trash']")).click();
+        Thread.sleep(5000);
+            driver.findElement(By.xpath("//i[@class='fa fa-trash ng-star-inserted']")).click();
         System.out.println("Delete is clicked");
-        Thread.sleep(10);
             Alert a = new Alert() {
                 @Override
                 public void dismiss() {
@@ -134,15 +136,14 @@ s.selectByValue("Employee");
             };
             a.accept();
 
-            WebDriverWait w3 = new WebDriverWait(driver, Duration.ofSeconds(5));
-            w3.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//p[text()='Success']")));
+//            WebDriverWait w3 = new WebDriverWait(driver, Duration.ofSeconds(5));
+//            w3.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//p[text()='Success']")));
+        Thread.sleep(2000);
 
-            Thread.sleep(10);
-            Assert.assertTrue(driver.findElement(By.xpath("//p[text()='Success']")).isDisplayed());
-        System.out.println("Success is there");
+            String deletedMessage = driver.findElement(By.xpath("//p[text()='Role deleted successfully.']")).getText();
 
-        Assert.assertTrue(driver.findElement(By.xpath("//p[text()='Role deleted successfully.']")).getText().equalsIgnoreCase("")==false);
-
+        Assert.assertTrue(deletedMessage.equalsIgnoreCase("Role deleted successfully."));
+        System.out.println("Role is Deleted");
         }
 
     @AfterTest

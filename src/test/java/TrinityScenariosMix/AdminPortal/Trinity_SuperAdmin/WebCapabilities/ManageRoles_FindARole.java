@@ -19,7 +19,7 @@ import java.time.Duration;
 public class ManageRoles_FindARole {
     WebDriver driver;
     @BeforeTest
-    public void NavigateToManageRoles(){
+    public void NavigateToManageRoles() throws InterruptedException {
         ChromeOptions c = new ChromeOptions();
         c.addArguments("--start-maximized");
         //c.addArguments("--headless");
@@ -36,20 +36,20 @@ public class ManageRoles_FindARole {
         email.sendKeys("Naveen1@yopmail.com");
         password.sendKeys("Admin@123");
         signInButton.click();
-
-        WebDriverWait w = new WebDriverWait(driver, Duration.ofSeconds(5));
-        w.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"navbarSupportedContent\"]/ul[1]")));
-
+        Thread.sleep(5000);
         driver.findElement(By.xpath("//a[text()='Web Capabilities ']")).click();
+        Thread.sleep(2000);
         driver.findElement(By.xpath("//span[text()='User Management']")).click();
+        Thread.sleep(2000);
         driver.findElement(By.xpath("//span[text()='Manage Roles']")).click();
+        Thread.sleep(3000);
 
         Assert.assertEquals(driver.getCurrentUrl(), "https://atlas-web-qa.azurewebsites.net/role");
     }
 
     @Test
     public void findARoleName() throws InterruptedException {
-        String role_name = "ABCDE";
+        String role_name = "Admin";
         Select s = new Select(driver.findElement(By.xpath("//select[@name='DataTables_Table_0_length']")));
         s.selectByValue("10");
 
@@ -70,6 +70,7 @@ public class ManageRoles_FindARole {
                  if (driver.findElement(By.xpath("//table[@id='DataTables_Table_0']/tbody/tr[" + j + "]/td[2]")).getText().equals(role_name)) {
                      System.out.println(driver.findElement(By.xpath("//table[@id='DataTables_Table_0']/tbody/tr[" + j + "]/td[1]")).getText());
                      b=true;
+                     System.out.println("Role exists in the List");
                      break;
                  }
              }
