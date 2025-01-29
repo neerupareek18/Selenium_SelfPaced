@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Parts Catalog Customer Portal -- DDT">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/PartsCatalog/CustomerOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/MyAccount/ProfileSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/S2_DDT_CustomerOrderPlaced_POEMItemStatusUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/getOrderNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/openingMultipleTabs.java" afterDir="false" />
+    <list default="true" id="056bccb3-5040-477f-af2e-d4c235486792" name="Changes" comment="Parts and Trailer Catalog scenarios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DataFiles/PartNames.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataFiles/PartNames.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Trinity_SignInPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_OuterPages/Trinity_SignInPageElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManageRoles_AddNewRoleDeleteIt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindARole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManageRoles_FindARole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/DDT_PartOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/PlacingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/CustomerPortal/PartsCatalog/S1_PlacingOrder_SuccessFailure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManagerPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrinityScenariosMix/AdminPortal/Trinity_SuperAdmin/WebCapabilities/ManagerPermission.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,25 +207,7 @@
       <recent name="ReadingExcelFile" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Trinity_SignInPage_Negative.LoginNoUsernamePassword">
-    <configuration name="ManageRoles_AddNewRoleDeleteIt.AddNewRole_DeleteIt" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TrinityScenarios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.WebCapabilities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.WebCapabilities" />
-      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.WebCapabilities.ManageRoles_AddNewRoleDeleteIt" />
-      <option name="METHOD_NAME" value="AddNewRole_DeleteIt" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ManagerPermission.NavigateToManagerPermissions">
     <configuration name="ManageRoles_FindARole.findARoleName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TrinityScenarios" />
       <extension name="coverage">
@@ -247,6 +219,24 @@
       <option name="PACKAGE_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.WebCapabilities" />
       <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.WebCapabilities.ManageRoles_FindARole" />
       <option name="METHOD_NAME" value="findARoleName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerPermission.NavigateToManagerPermissions" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TrinityScenarios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.WebCapabilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.WebCapabilities" />
+      <option name="MAIN_CLASS_NAME" value="TrinityScenariosMix.AdminPortal.Trinity_SuperAdmin.WebCapabilities.ManagerPermission" />
+      <option name="METHOD_NAME" value="NavigateToManagerPermissions" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -310,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ManagerPermission.NavigateToManagerPermissions" />
         <item itemvalue="TestNG.Trinity_SignInPage_Negative.LoginNoUsernamePassword" />
         <item itemvalue="TestNG.Trinity_SignInPage_Positive.Login_ValidCredentials" />
         <item itemvalue="TestNG.Trinity_SignInPageElements.ElementsOnSignInPage" />
         <item itemvalue="TestNG.ManageRoles_FindARole.findARoleName" />
-        <item itemvalue="TestNG.ManageRoles_AddNewRoleDeleteIt.AddNewRole_DeleteIt" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735823106476</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Parts and Trailer Catalog scenarios">
+      <option name="closed" value="true" />
+      <created>1737556788948</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1737556788950</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -506,7 +504,8 @@
     <MESSAGE value="Trailer Catalog Customer Page" />
     <MESSAGE value="Deatils Page - Inquire Now" />
     <MESSAGE value="Parts Catalog Customer Portal -- DDT" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parts Catalog Customer Portal -- DDT" />
+    <MESSAGE value="Parts and Trailer Catalog scenarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parts and Trailer Catalog scenarios" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeleniumPrograms$C__Users_Neeru_IdeaProjects_SeleniumPrograms_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1722417126236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

@@ -10,7 +10,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 
 public class ManagerPermission {
@@ -48,8 +50,9 @@ public class ManagerPermission {
         driver.findElement(By.xpath("//input[@type='text']")).sendKeys("ABCD");
 
         System.out.println(driver.findElement(By.xpath("//input[@type='text']")).getText());
+        Thread.sleep(2000);
 
-        if(driver.findElement(By.xpath("//div[@class='ng-option ng-option-disabled']")).isDisplayed()){
+        if(driver.getPageSource().contains("No items found")){
             System.out.println("Role is not available to set permission.");
         }
 
@@ -57,7 +60,7 @@ public class ManagerPermission {
         driver.findElement(By.xpath("//span[@class='ng-arrow-wrapper']")).click();
         driver.findElement(By.xpath("//input[@type='text']")).sendKeys("TSM");
         driver.findElement(By.xpath("//input[@type='text']")).sendKeys(Keys.RETURN);
-        Thread.sleep(1000);
+        Thread.sleep(2000);
 
 //        List <WebElement> items1 = driver.findElements(By.xpath("//div[@class='ng-option']/span"));
 //        System.out.println(items1.size());
